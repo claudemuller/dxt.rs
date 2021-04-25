@@ -5,7 +5,7 @@ summary: "How to copy and paste to and from the clipboard while working in the c
 author: "lukefilewalker"
 featured: true
 categories: ["cli"]
-tags: ["bash", "shell", "xclip"]
+tags: ["bash", "shell", "xclip", "linux"]
 #comments: true
 ---
 
