@@ -15,7 +15,7 @@ minify:
   minifyOutput: true
 
 params:
-  env: dev
+  env: development
   title: "dxt.rs"
   description: "A collection of tech learnings."
   keywords: [Blog]
