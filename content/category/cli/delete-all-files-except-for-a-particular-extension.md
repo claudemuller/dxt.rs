@@ -5,7 +5,7 @@ summary: "How to delete all the files in the current directory except for files 
 author: "lukefilewalker"
 featured: true
 categories: ["cli"]
-tags: ["shell", "bash"]
+tags: ["shell", "bash", "linux"]
 #comments: true
 ---
 
