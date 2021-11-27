@@ -8,7 +8,7 @@ tags: ["nvim", "cht.sh", "reference", "floating-window", "buffer"]
 #comments: true
 ---
 
-If you don't have an above amazing working memory or don't possess an eidetic memory, having reference material at hand helps a lot to get coding or writing tasks done. There are a few solutions to this problem ranging from having an extra monitor to [getting a brain tumor](https://www.imdb.com/title/tt0117333/). 
+If you don't have an above amazing working memory or don't possess an eidetic memory, having reference material at hand helps a lot to get coding or writing tasks done. There are a few solutions to this problem ranging from having an extra monitor to [getting a brain tumor like George Malley](https://www.imdb.com/title/tt0117333/). 
 
 In this post, however, I will discuss how I used Neovim and Lua to write a few functions that allow me to open a small floating window and either show the output of a cheatsheet from [cht.sh](http://cht.sh/) or interact with a full-blown browser from which to reference any material. It is worth noting that the browsers support by this method are [limited¹](#_footnotes_) to command line browsers such as [Lynx](http://lynx.browser.org/), [w3m](http://w3m.sourceforge.net/) etc.
 
