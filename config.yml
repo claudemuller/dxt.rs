@@ -25,6 +25,7 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   #layout: grid
+  width: semi-wide
 
   ShowReadingTime: true
   ShowShareButtons: true
