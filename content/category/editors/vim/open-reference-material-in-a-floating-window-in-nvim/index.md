@@ -18,6 +18,10 @@ In this post, however, I will discuss how I used [Neovim](https://neovim.io/) an
 - [curl](https://curl.se/)
 - [w3m](http://w3m.sourceforge.net/)
 
+## Demo
+
+![Demo](./open-referenc-material.gif "A demo of how to open reference material in a floating window in nvim")
+
 ## [The Code](https://lkml.org/lkml/2000/8/25/132)
 
 Most of the logic at the moment resides in a [single function 😭](https://en.wikipedia.org/wiki/Single-responsibility_principle). I've commented all the parts that may not be clear from my coding style.
