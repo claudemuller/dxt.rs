@@ -22,7 +22,7 @@ params:
   author: lukefilewalker
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: dark #, light
   disableThemeToggle: false
   #layout: grid
   width: semi-wide
