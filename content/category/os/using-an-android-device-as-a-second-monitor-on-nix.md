@@ -76,7 +76,7 @@ sudo apt-get install xfwm4
 # Fedora/SUSE-based distros
 sudo yum install xfwm4 # presumably?
 ```
-11. And lastly run `xfwm4` and the application you need in a separate terminal editor or via a launcher, script etc. **DO REMEMBER** though to export the `DISPLAY` variable before running said applications.
+11. And lastly run `xfwm4` and the application you need in a separate terminal editor or via a launcher, script etc. **DO REMEMBER** though to set the `DISPLAY` variable before running said applications.
 ```bash
 # With xfwm4
 DISPLAY=:100 && xfwm4 & terminator
@@ -85,7 +85,7 @@ DISPLAY=:100 && xfwm4 & terminator
 DISPLAY=:100 && terminator
 ```
 
-### Notes
+## Notes
 
 - If you end up using this a lot or find the steps tedious, run the following [script](https://github.com/claudemuller/dot-files/blob/master/scripts/.local/bin/start-secondary-mon):
 ```bash
