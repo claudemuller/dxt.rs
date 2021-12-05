@@ -1,5 +1,5 @@
 ---
-title: "Open Reference Material in a-floating Window In Neovim"
+title: "Open Reference Material in a Floating Window In Neovim"
 date: 2021-11-26T07:50:00+00:00
 summary: "View reference material in a CLI web browser or via a terminal command in a floating window within Neovim."
 author: "lukefilewalker"
