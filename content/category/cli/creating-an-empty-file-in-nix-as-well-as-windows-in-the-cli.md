@@ -1,7 +1,7 @@
 ---
-title: "Creating an Empty File in *nix as Well as Windows in the cli"
+title: "Creating an Empty File in *nix as Well as Windows in the CLI"
 date: 2016-08-02T18:43:54+02:00
-summary: "How to create an empty file from the cli in *nix as well as Windows"
+summary: "How to create an empty file from the CLI in *nix as well as Windows"
 author: "lukefilewalker"
 featured: true
 categories: ["cli", "operating systems"]

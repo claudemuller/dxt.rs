@@ -1,5 +1,5 @@
 ---
-title: "Paging Through Large Result Sets in the MySQL Cli"
+title: "Paging Through Large Result Sets in the MySQL CLI"
 date: 2015-03-23T20:45:11+02:00
 summary: "How to page through large result sets when working with the MySQL command line tool."
 author: "lukefilewalker"

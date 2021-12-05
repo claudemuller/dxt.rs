@@ -1,7 +1,7 @@
 ---
-title: "Get Your External IP Address From the cli"
+title: "Get Your External IP Address From the CLI"
 date: 2015-12-28T18:43:54+02:00
-summary: "How to get your external IP address on the cli."
+summary: "How to get your external IP address on the CLI."
 author: "lukefilewalker"
 categories: ["cli"]
 tags: ["shell", "wget", "bash", "curl", "linux"]

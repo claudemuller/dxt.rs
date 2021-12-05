@@ -1,7 +1,7 @@
 ---
 title: "Find and Replace in Vim"
 date: 2015-01-30T00:00:00+00:00
-summary: "How to copy and paste to and from the clipboard while working in the cli."
+summary: "How to copy and paste to and from the clipboard while working in the CLI."
 author: "lukefilewalker"
 categories: ["editors"]
 tags: ["vim"]
