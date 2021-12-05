@@ -59,7 +59,7 @@ yay -S x2x
 ```
 9. Run `x2x` in the background with the following:
 ```bash
-x2x -east -to :100 -from :0 
+x2x -east -to :100 -from :0 &
 ```
 10. Install the `xfwm4` package thusly:
 ```bash
