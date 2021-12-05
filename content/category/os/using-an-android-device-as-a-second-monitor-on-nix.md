@@ -45,6 +45,9 @@ brew cask install android-platform-tools
 4. Connect your Android device to your machine via USB.
 5. Enable USB debugging on the device under "Developer Settings" within the Android "Settings". If you don't have the "Developer Settings" menu item you need to [enable¹](#_footnotes_) it.
 6. Then, in on your favourite CLI forward from your local TCP port `6100` to the remote `6000`.
+```bash
+adb forward tcp:6100 tcp:6000
+```
 7. Next, set up the environment variable to point to the new monitor like so:
 ```bash
 export DISPLAY=:100
