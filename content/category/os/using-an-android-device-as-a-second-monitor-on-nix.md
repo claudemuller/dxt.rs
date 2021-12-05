@@ -1,5 +1,5 @@
 ---
-title: "Using an Android Device as a Second Monitor On \*nix"
+title: "Using an Android Device as a Second Monitor On *nix"
 date: 2021-12-05T17:00:00+02:00
 summary: "Using X forwarding sending an application over to an Android device is relatively painless."
 author: "lukefilewalker"
