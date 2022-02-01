@@ -4,7 +4,7 @@ date: 2021-12-05T17:00:00+02:00
 summary: "Using X forwarding sending an application over to an Android device is relatively painless."
 author: "lukefilewalker"
 categories: ["os"]
-tags: ["x", "android"]
+tags: ["x", "android", "linux", "unix"]
 #comments: true
 ---
 
