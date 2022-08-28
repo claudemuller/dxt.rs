@@ -3,7 +3,6 @@ title: "Fetch Process IDs or Names by the Port They're Listening On"
 date: 2022-08-28T08:00:00+02:00
 summary: "Fetch Process IDs or Names by the Port They're Listening On."
 author: "lukefilewalker"
-featured: true
 categories: ["cli"]
 tags: ["bash", "shell", "lsof", "linux", "net", "port", "unix", "netstat", "macos", "linux", "windows"]
 #comments: true
