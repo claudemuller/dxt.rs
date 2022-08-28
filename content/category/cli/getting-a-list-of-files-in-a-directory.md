@@ -10,12 +10,12 @@ tags: ["bash", "shell"]
 
 Ever need a clean, single column, listing of all the files in a directory in *nix that you could output to a file? Maybe a list of all the series or movies you own.. Here are a couple of additions to the old `ls`  command we all love ;P
 ```bash 
-$ ls --color=never --format=single-column
+ls --color=never --format=single-column
 ```
 
 This command removes colours and lists the output in one single column
 ```bash 
-$ ls --format=single-column > ~/list-of-files.txt
+ls --format=single-column > ~/list-of-files.txt
 ```
 
 The above command does the same as the previous command except that it doesn't bother stripping colours because it then redirects the output into the file `list-of-files.txt`  to be created in the current user's home directory.

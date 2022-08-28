@@ -10,7 +10,7 @@ tags: ["shell", "wget", "bash", "curl", "linux"]
 
 As long as you have `wget` or `curl` installed, this should work:
 ```bash 
-$ wget http://ipinfo.io/ip -qO -
+wget http://ipinfo.io/ip -qO -
 ```
 
 - `-q` – quiet mode
@@ -18,7 +18,7 @@ $ wget http://ipinfo.io/ip -qO -
 
 Or you could use cURL with the following command:
 ```bash 
-$ curl http://icanhazip.com
+curl http://icanhazip.com
 ```
 
 :D

@@ -14,7 +14,7 @@ So you're hammering away at the console and shoot a couple of queries at `mysql`
 
 Execute single SQL queries from your shell like so:
 ```bash 
-$ mysql -u root -proot -e "show tables;" some_database | more
+mysql -u root -proot -e "show tables;" some_database | more
 ```
 
 - `u` – username
