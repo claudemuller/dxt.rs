@@ -10,7 +10,7 @@ tags: ["bash", "shell", "lsof", "linux", "net", "port", "unix", "netstat", "maco
 
 Sometimes you need to see which process is running on which port on your system. That may be out of pure curiosity, because an application you're developing is complaining that the intended port is in use, or, dun dun dun, you have a backdoor accepting connections!
 
-The tool we need is called `netstat` which is readily available on *nix systems and even micro$soft doze! If you find that your system doesn't have `netstat` installed, here are some install commands to acquire said tool via the `net-tools` package:
+The tool we need is called `netstat` which is readily available on *nix systems and even micro$oft doze! If you find that your system doesn't have `netstat` installed, here are some install commands to acquire said tool via the `net-tools` package:
 
 ### For Debian-based systems execute the following:
 ```bash 
