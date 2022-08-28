@@ -39,10 +39,10 @@ Netstat has a bunch of flags to fetch different information from your system, bu
 
 ```bash
 netstat -tulpn
+```
 
 #### Flags Breakdown:
 
-```
 - `-t --tcp` - show ports using the TCP protocol
 - `-u --udp` - show ports using the UDP protocol
 - `-l, --listening` - show only listening sockets
@@ -51,7 +51,7 @@ netstat -tulpn
 
 #### On MacOS/OSX
 
-MacOS's netstat is a little different. Firstly, you can't specify TCP and UDP traffic together; secondly, you have to pipe the output to `grep` in order to show only listening ports; and thirdly, and most importantly, you can't get the PID of the process on a port. All is not lost however as you can get the PID with `[lsof](https://dxt.rs)` That said, here is the best alternative for MacOS using `netstat` I could come up with:
+MacOS's netstat is a little different. Firstly, you can't specify TCP and UDP traffic together; secondly, you have to pipe the output to `grep` in order to show only listening ports; and thirdly, and most importantly, you can't get the PID of the process on a port. All is not lost however as you can get the PID with [`lsof`](https://dxt.rs) That said, here is the best alternative for MacOS using `netstat` I could come up with:
 
 ```bash
 netstat -an -p tcp | grep LISTEN && netstat -an -p udp
