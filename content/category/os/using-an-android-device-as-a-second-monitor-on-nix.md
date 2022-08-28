@@ -23,23 +23,28 @@ Additionally, this method uses the Android development tool `adb` with the optio
 1. Install an X server on your Android device. I'm using [XSDL](https://play.google.com/store/apps/details?id=x.org.server).
 2. Run and customise the server e.g. choose the desired resolution etc.
 3. Install `adb` on your \*nix machine, like:
+
+### Arch-based distros
+
 ```bash
-# Arch-based distros
 yay -S android-platform-tools
 ```
 
+### Debian-based distros
+
 ```bash
-# Debian-based distros
 sudo apt-get install android-tools-adb
 ```
 
+### Fedora/SUSE-based distros
+
 ```bash
-# Fedora/SUSE-based distros
 sudo yum install android-tools
 ```
 
+### Macos/OSX-based
+
 ```bash
-# Macos/OSX-based
 brew cask install android-platform-tools
 ```
 4. Connect your Android device to your machine via USB.
@@ -53,8 +58,10 @@ adb forward tcp:6100 tcp:6000
 export DISPLAY=:100
 ```
 8. Install `x2x` via your package manager if it is present, or from [Github](https://github.com/dottedmag/x2x).
+
+### Arch-based distros
+
 ```bash
-# Arch-based distros
 yay -S x2x
 ```
 9. Run `x2x` in the background with the following:
@@ -62,26 +69,35 @@ yay -S x2x
 x2x -east -to :100 -from :0 &
 ```
 10. Install the `xfwm4` package thusly:
+
+### Arch-based distros
+
 ```bash
-# Arch-based distros
 yay -S xfwm4
 ```
 
+### Debian-based distros
+
 ```bash
-# Debian-based distros
 sudo apt-get install xfwm4
 ```
 
+### Fedora/SUSE-based distros
+
 ```bash
-# Fedora/SUSE-based distros
 sudo yum install xfwm4 # presumably?
 ```
 11. And lastly run `xfwm4` and the application you need in a separate terminal editor or via a launcher, script etc. **DO REMEMBER** though to set the `DISPLAY` variable before running said applications.
-```bash
-# With xfwm4
-DISPLAY=:100 && xfwm4 & terminator
 
-# Without xfwm4, such as would be the case on Mac
+#### With xfwm4
+
+```bash
+DISPLAY=:100 && xfwm4 & terminator
+```
+
+#### Without xfwm4, such as would be the case on Mac
+
+```bash
 DISPLAY=:100 && terminator
 ```
 
