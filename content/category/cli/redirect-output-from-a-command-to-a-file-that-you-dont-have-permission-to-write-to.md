@@ -3,7 +3,6 @@ title: "Redirect output from a command to a file that you don't have permission 
 date: 2022-09-02T22:15:00+02:00
 summary: "How to redirect output from a command you've run to a file that you don't have permission to write to i.e. to a destination that you need to use `sudo` on."
 author: "lukefilewalker"
-featured: true
 categories: ["cli"]
 tags: ["shell", "bash", "linux", "redirect"]
 #comments: true
