@@ -1,5 +1,5 @@
 ---
-title: "Rust - first steps"
+title: "Rust - First Steps"
 date: 2022-10-08T11:20:00+02:00
 summary: "Take your first steps with Rust by installing the toolchain and writing your first program."
 author: "lukefilewalker"
@@ -27,7 +27,7 @@ Execute the following command in the CLI:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-> _**Note:**_ remember to uninstall any other installations of Rust, e.g. on MacOS with `brew`
+> _**Note:**_ remember to uninstall any other installations of Rust, e.g. on MacOS with `brew` > _**Another Note:**_ ensure that you have a C compiler installed on MacOS/OSX with `xcode-select --install`
 
 ### In Windows
 

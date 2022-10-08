@@ -2,6 +2,7 @@
 ### Hugo template
 # Generated files by hugo
 /public/
+/ahe_public/
 /resources/_gen/
 
 # Executable may be added to repository
