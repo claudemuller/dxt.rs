@@ -5,10 +5,11 @@ summary: "View reference material in a CLI web browser or via a terminal command
 author: "lukefilewalker"
 categories: ["editors"]
 tags: ["nvim", "cht.sh", "reference", "floating-window", "buffer"]
+showtoc: true
 #comments: true
 ---
 
-If you don't have an above amazing working memory or don't possess an eidetic memory, having reference material at hand helps a lot to get coding or writing tasks done. There are a few solutions to this problem ranging from having an extra monitor to [getting a brain tumor like George Malley](https://www.imdb.com/title/tt0117333/). 
+If you don't have an above amazing working memory or don't possess an eidetic memory, having reference material at hand helps a lot to get coding or writing tasks done. There are a few solutions to this problem ranging from having an extra monitor to [getting a brain tumor like George Malley](https://www.imdb.com/title/tt0117333/).
 
 In this post, however, I will discuss how I used [Neovim](https://neovim.io/) and [Lua](http://www.lua.org/) to write a few functions that allow me to open a small floating window and either show the output of a cheatsheet from [cht.sh](http://cht.sh/) or interact with a full-blown browser from which to reference any material. It is worth noting that the browsers support by this method are [limited¹](#_footnotes_) to command line browsers such as [Lynx](http://lynx.browser.org/), [w3m](http://w3m.sourceforge.net/) etc.
 
@@ -138,13 +139,13 @@ vim.api.nvim_set_keymap('n', '<leader>rc',  [[<cmd>lua open_term_buffer('Cht.sh:
 
 I hope this is helpful 🦾
 
-#### _Footnotes_
-
-1. These perceived limitations that non-commandline acolytes refer to are **ENTIRELY** self-imposed ✊
-2. Simply surround the Lua with `lua` tags suchly:
-```vim
-lua <<EOF
-print('Some snazzy Lua code here 😎')
-EOF
-```
-
+> _**Footnotes**_
+>
+> 1. These perceived limitations that non-commandline acolytes refer to are **ENTIRELY** self-imposed ✊
+> 2. Simply surround the Lua with `lua` tags suchly:
+>
+> ```vim
+> lua <<EOF
+> print('Some snazzy Lua code here 😎')
+> EOF
+> ```

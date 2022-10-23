@@ -10,6 +10,7 @@ cover:
   alt: "rust"
   caption: "Photo by Opensource.com"
   relative: true
+showtoc: true
 #comments: true
 ---
 
@@ -27,7 +28,9 @@ Execute the following command in the CLI:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-> _**Note:**_ remember to uninstall any other installations of Rust, e.g. on MacOS with `brew` > _**Another Note:**_ ensure that you have a C compiler installed on MacOS/OSX with `xcode-select --install`
+> If you have an installation of Rust already on your system, be sure to first uninstall it, e.g. if on MacOS with `brew` then `brew remove rust`
+
+> If on MacOS/OSX, ensure that you have a C compiler installed with `xcode-select --install`
 
 ### In Windows
 
@@ -62,6 +65,16 @@ fn main() {
 }
 ```
 
+### The basics of `main.rs`
+
+- `fn` is the keyword to define a function in Rust and in this case, i.e. the `main` function, it is the entrypoint into the program.
+- functions need to be wrapped with braces i.e. `{}`
+- code should be indented with 4 spaces, not tabs.
+- macro calls look like function calls except for the exclamation mark in between the name and the opening parenthesis e.g. `println()` vs `println!()`
+- lines end with a semi-colon.
+
+## Compiling and running
+
 Compiling and running your Rust programs is a two-step process. To compile the program, run:
 
 ```bash
@@ -86,7 +99,7 @@ You should see the following output:
 
 ```bash
 $ rustc main.rs && ./main
-hello
+Hello, World!
 ```
 
 In the next article we'll start diving in to the details 😬

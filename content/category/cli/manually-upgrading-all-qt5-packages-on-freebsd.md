@@ -3,7 +3,7 @@ title: "Manually Upgrading All Qt5 Packages on FreeBSD"
 date: 2019-10-17T18:43:54+02:00
 summary: "How to manually upgrade all QT5 packages on FreeBSD with `xargs`."
 author: "lukefilewalker"
-categories: ["cli", "operating systems"]
+categories: ["cli", "os"]
 tags: ["bash", "shell", "xargs", "pkg", "freebsd"]
 #comments: true
 ---
