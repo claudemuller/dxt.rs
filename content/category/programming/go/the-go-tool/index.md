@@ -1,6 +1,6 @@
 ---
 title: "The Go Tool"
-date: 2021-12-05T09:20:00+02:00
+date: 2022-10-05T23:20:00+02:00
 summary: "The Go tool is an important tool in your arsenal when developing Go programs."
 author: "lukefilewalker"
 categories: ["programming", "go"]
@@ -12,6 +12,7 @@ cover:
   relative: true
 #comments: true
 showtoc: true
+draft: true
 ---
 
 The Go tool is the tool you are going to use during your Go development for everything from formatting code, querying, downloading and installing packages to building, testing, and running your code.

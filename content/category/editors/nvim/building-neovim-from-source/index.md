@@ -3,7 +3,7 @@ title: "Building Neovim from Source"
 date: 2022-10-23T11:00:00+02:00
 summary: "How to build Neovim from source if, for example, there is no binary for your system."
 author: "lukefilewalker"
-categories: ["editor"]
+categories: ["editors"]
 tags: ["nvim", "code", "editor"]
 #comments: true
 ---

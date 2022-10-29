@@ -78,7 +78,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/claudemuller/dxt.rs/content"
+    URL: "https://github.com/claudemuller/dxt.rs/blob/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -117,7 +117,6 @@ menu:
       name: profile
       url: https://claudemuller.io
       weight: 40
-
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
