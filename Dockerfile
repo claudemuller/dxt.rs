@@ -1,17 +1,18 @@
-FROM caddy:builder AS builder
+FROM alpine:latest as build
 
-RUN xcaddy build \
-    --with github.com/caddyserver/transform-encoder
+WORKDIR /public
 
-FROM caddy:2.5.0
+RUN apk add curl
 
-COPY --from=builder /usr/bin/caddy /usr/bin/caddy
+RUN curl https://github.com/gohugoio/hugo/releases/download/v0.109.0/hugo_0.109.0_linux-amd64.tar.gz -o /usr/bin/hugo
+RUN chmod u+x /usr/bin/hugo
+
+COPY config.yml archetypes/ content/ resources/ static/ themes/ ./
+RUN hugo
+
+FROM caddy:latest
 
 WORKDIR /dxt.rs
-COPY Caddyfile /etc/caddy/Caddyfile
-COPY public .
 
-WORKDIR /ahumanexperiment.com
 COPY Caddyfile /etc/caddy/Caddyfile
-COPY ahe_public .
-
+COPY --from=build /public ./
