@@ -236,7 +236,7 @@ int new_house_lights = ~(house_lights & garage_light);
 // new_house_lights = 0100 or 4
 ```
 
-Here, on line 5, we _AND_ the `house_lights` and the switch we want to turn off, `garage_light` in this case, we _NOT_ that result and, finally, _AND_ that result with the original `house_lights`. Further illustrated:
+Here, on the 4th line, we _AND_ the `house_lights` and the switch we want to turn off, `garage_light` in this case, we _NOT_ that result and, finally, _AND_ that result with the original `house_lights`. Further illustrated:
 
 ```
 
