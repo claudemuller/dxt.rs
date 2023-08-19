@@ -84,6 +84,7 @@ const houseLights = {
 
 // We can do this...
 let houseLights = 5;   // Number with a size of 8 bytes
+                       // 5 can be represented as 0b0101
 ```
 
 ## The Benefits of Bitfields
@@ -92,7 +93,7 @@ let houseLights = 5;   // Number with a size of 8 bytes
 
 And this is where the first benefit of using bitfields comes in - they are a _more compact_ i.e. space-saving, way of storing data.
 
-In the JavaScript code above, if we assume that an empty object in JavaScript consumes zero bytes in memory (which doesn't of course in reality), then the object of four "light switches", each represented as a boolean (which [take up 8 bytes¹](#footnotes-1) each), will consume a conservative _32 bytes_ on a 64-bit system.
+In the JavaScript code above, if we assume that an empty object in JavaScript consumes zero bytes in memory (which doesn't of course in reality), then the object of four "light switches", each represented as a boolean (which [take up 8 bytes¹](#footnotes) each), will consume a conservative _32 bytes_ on a 64-bit system.
 
 If we used a _number_ to represent the same data we would only be using _8 bytes_ of memory on the same 64-bit system.
 
@@ -113,6 +114,7 @@ struct {
 
 // Versus...
 int house_lights = 5;       // int with a size of 8 bytes
+                            // 5 can be represented as 0b0101
 ```
 
 C does not have a boolean data type. The `bool` syntax above is syntactic sugar for `int` - an integer. Here the struct of `bool` i.e. `int`s, consumes _32 bytes_ in a 64-bit system while the `int` only consumes _8 bytes_ on the same system.
@@ -151,9 +153,9 @@ _Both input_ values should to be `1` for the output to be `1`. The symbol `&` is
 
 NOT takes only one input and inverts the output. The symbol `~` is used in [C-style programming languages](https://en.wikipedia.org/wiki/List_of_C-family_programming_languages) to represent this bitwise operator.
 
-Some more benefits of bitfields can be found in the [footnotes²](#footnotes-2).
+Some more benefits of bitfields can be found in the [footnotes²](#footnotes).
 
-**OK, if you're still awake** 😅, let's continue.
+*OK, if you're still awake 😅*, let's continue.
 
 ## Checking Which Lights Are On
 
@@ -179,14 +181,14 @@ AND 0100     // 4
 
 So we can say: if we _AND_ the `house_lights` and the `kitchen_light` together and the result is equal to `kitchen_light`, then the _kitchen_ light is _on_.
 
-Because we can't easily represent multi-bit binary values as binary in most languages, we use their integer representation. Using the [binary to decimal table from before](#decimal-and-binary) we can then write the above pseudocode in C as:
+We can use the [binary to decimal table from before](#decimal-and-binary) to get the decimal values we need or use the prefix `0b` (in most C-style languages) to display the binary directly. We can then write the above pseudocode in C as:
 
 ```c
-int house_lights = 5;  // 0101 in binary
-int kitchen_light = 4; // 0100 in binary
+int house_lights =  0b0101;  // 5
+int kitchen_light = 0b0100;  // 4
 
 bool is_kitchen_light_on = house_lights & kitchen_light;
-// is_kitchen_light_on = True
+// is_kitchen_light_on = true
 ```
 
 ## Switching Lights On
@@ -210,11 +212,11 @@ So we can say: if we _OR_ the `house_lights` and the `bedroom_light` together, t
 Representing the above pseudocode in C:
 
 ```c
-int house_lights = 5;  // 0101 in binary
-int bedroom_light = 2; // 0010 in binary
+int house_lights =  0b0101;  // 5
+int bedroom_light = 0b0010;  // 2
 
 int new_house_lights = house_lights | bedroom_light;
-// new_house_lights = 0111 or 7
+// new_house_lights = 0b0111 or 7
 ```
 
 The state of the house lights are now:
@@ -229,11 +231,11 @@ The state of the house lights are now:
 Using a combination of bitwise _AND_ and _NOT_ we can turn turn one of the switches _off_ i.e. flip a bit from 1 to 0.
 
 ```c=
-int house_lights = 5;  // 0101 in binary
-int garage_light = 1;  // 0001 in binary
+int house_lights = 0b0101;  // 5
+int garage_light = 0b0001;  // 1
 
-int new_house_lights = ~(house_lights & garage_light);
-// new_house_lights = 0100 or 4
+int new_house_lights = house_lights & ~(house_lights & garage_light);
+// new_house_lights = 0b0100 or 4
 ```
 
 Here, on the 4th line, we _AND_ the `house_lights` and the switch we want to turn off, `garage_light` in this case, we _NOT_ that result and, finally, _AND_ that result with the original `house_lights`. Further illustrated:
@@ -266,10 +268,10 @@ And that summarises what _bitmasks_ are and how to use them.
 
 ---
 
-### Footnotes<a name="footnotes"></a>
+### Footnotes<a link="footnotes"></a>
 
 1. A boolean in JavaScript actually has a size of 1 byte, but [byte alignment](https://en.wikipedia.org/wiki/Data_structure_alignment) on 32-bit systems will cause 4 bytes to be used and 8 bytes on 64-bit systems.
-1. Other Benefits of Bitfields
+2. Other Benefits of Bitfields
     - **Performance** - reading or manipulating a single string of bits at a time is faster than doing so on separate variables
     - **Cache Efficiency** - one can improve cache efficiency when using bitfields as usually one or more can fit in a cache line
     - **Readability and Maintainability** - while bitfields seem hard to read and understand at first they allow one to organise a complex combination of flags into a single variable (name)
