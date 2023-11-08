@@ -4,7 +4,7 @@ date: 2016-08-02T18:43:54+02:00
 summary: "How to create an empty file from the CLI in *nix as well as Windows"
 author: "lukefilewalker"
 featured: true
-categories: ["cli", "os"]
+categories: ["cli", "OS"]
 tags: ["bash", "shell", "freebsd", "windows"]
 #comments: true
 ---
