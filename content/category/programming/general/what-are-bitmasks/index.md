@@ -1,20 +1,31 @@
 ---
-title: "What are Bitmasks"
+title: What are Bitmasks
 date: 2023-08-18T07:00:00+02:00
-summary: "What even are bitmasks, bitfields, binary, bits, bytes, nibbles, words?"
-author: "lukefilewalker"
-categories: ["programming"]
-tags: ["bitfield", "bitmask", "programming", "bitmask", "data-structures", "c", "javascript", "and", "not", "or", "bitwise"]
-#comments: true
+summary: What even are bitmasks, bitfields, binary, bits, bytes, nibbles, words?
+author: lukefilewalker
+categories:
+  - programming
+tags:
+  - bitfield
+  - bitmask
+  - programming
+  - bitmask
+  - data-structures
+  - c
+  - javascript
+  - and
+  - not
+  - or
+  - bitwise
+showtoc: "true"
 ---
-
 A _bitmask_ is a mask (think of a [multiple choice grading key](https://sockmonkeyscience.com/2019/02/27/grading-multiple-choice-answer-sheets-quickly/)) used to manipulate or reveal values in a _bitmask_. But to understand what a bitmask is we first need to understand what a bitfield is.
 
 ## What is a Bitfield
 
 A _bitfield_ is a collection of values that each represent one of two states, or, using a more familiar metaphor -  a row of household switches on a wall, each representing whether the lights are on or off in different rooms or areas around the house. We will use the following image as a tangible example.
 
-![switches.png](switches.png)
+![switches](_resources/switches.png)
 
 ### Bits and Bytes
 
@@ -91,7 +102,7 @@ let houseLights = 5;   // Number with a size of 8 bytes
 
 ### Space-Saving
 
-And this is where the first benefit of using bitfields comes in - they are a _more compact_ i.e. space-saving, way of storing data.
+And this is where the first benefit of using bitfields comes in - they are a _more compact_ i.e. space-saving, way of storing data. 
 
 In the JavaScript code above, if we assume that an empty object in JavaScript consumes zero bytes in memory (which doesn't of course in reality), then the object of four "light switches", each represented as a boolean (which [take up 8 bytes¹](#footnotes) each), will consume a conservative _32 bytes_ on a 64-bit system.
 
