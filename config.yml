@@ -38,6 +38,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  math: false
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -49,10 +50,10 @@ params:
 
   cliLabel:
     text: lukefilewalker
-  #label:
-  #  text: "d_e_xt_e_.r_ou_s"
-  #  icon: /apple-touch-icon.png
-  #  iconHeight: 35
+    #label:
+    #  text: "d_e_xt_e_.r_ou_s"
+    #  icon: /apple-touch-icon.png
+    #  iconHeight: 35
 
   homeInfoParams:
     Title: "Greetings! \U0001F62C"
@@ -82,8 +83,8 @@ params:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
-  # for search
-  # https://fusejs.io/api/options.html
+    # for search
+    # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -117,12 +118,20 @@ menu:
       name: profile
       url: https://claudemuller.io
       weight: 40
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+          inline:
+            - - \(
+              - \)
+            - - $
+              - $
+        enable: true
