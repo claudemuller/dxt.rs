@@ -30,7 +30,7 @@ Arrays are one of the more basic data structures and very broadly-used. Arrays a
 
 ## One Dimensional Arrays
 
-![1-dim-array](1-dim-array.svg)
+![1-dim-array](_resources/1-dim-array.svg)
 
 ### Advantages
 
