@@ -1,5 +1,5 @@
 ---
-title: Algorithms
+title: Data Structures
 date: 2024-03-15T04:00:00+02:00
 summary: What are data structures, what are their differences and how do we use them optimally.
 author: lukefilewalker
