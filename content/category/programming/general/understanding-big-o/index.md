@@ -32,7 +32,7 @@ title: Understanding Big-O
 
 With a bit of programming knowledge and experience, anyone could solve any problem. Solving it in the most optimal way however, is a different story altogether. Here, "most optimal" includes the how well your solution scales. Luckily there is a branch of computer science, called [asymptotic analysis](https://en.wikipedia.org/wiki/Asymptotic_analysis), that provides us with a framework we can use to measure the efficiency of our solutions i.e. our [algorithms](/category/programming/general/algorithms). Big-O is the mathematical notation we use to describe an algorithm's complexity in both time and space.
 
-"In both time and space" makes it sound like I'm writing a religious text or a comic book, but what this refers to, given a set of inputs, how the algorithm under observation performs and scales with regard to:
+"In both time and space" makes it sound like I'm writing a religious text or a comic book, but what this refers to, given a set of inputs, is how the algorithm under observation performs and scales with regard to:
 - its running time i.e. how many operations will it need to complete; and
 - how much RAM/memory the solution consumes during its lifetime with different inputs.
 
@@ -42,7 +42,7 @@ You may have come across a term that looks something like: *$O(something)$*. The
 
 # Constant Time or $O(1)$
 
-An algorithmic complexity of $O(1)$, or *constant time*, is used to describe an algorithm executes in the same amount of time regardless of the size of its inputs. The best analysis that you could hope for is order 1, or $O(1)$.
+An algorithmic complexity of $O(1)$, or *constant time*, is used to describe an algorithm that executes in the same amount of time regardless of the size of its inputs. The best analysis that you could hope for is order 1, or $O(1)$.
 
 ## Example
 
@@ -86,10 +86,9 @@ We would say that this algorithm:
 
 # Polynomial Time
 
-An algorithmic complexity executing in *polynomial time* refers to an algorithmic complexity where the time taken to complete the operation in question grows as a polynomial function of its input size. WTF does that mean, you may ask - I know I did. Let's break it down.
-
-"a function of" - a function is a thing that takes an input and gives an output based on some rules.
-"polynomial" - an expression that uses variables, constants and exponents to calculate something.
+An algorithmic complexity executing in *polynomial time* refers to an algorithmic complexity where the time taken to complete the operation in question grows as a polynomial function of its input size. WTF does that mean, you may ask - I know I did. Let's break it down:
+- "a function of" - a function is a thing that takes an input and gives an output based on some rules
+- "polynomial" - an expression that uses variables, constants and exponents to calculate something
 
 So, when we say, the algorithm's execution time grows as a polynomial function of its input size, we are saying that the time it takes for the algorithm to run depends on a formula containing the input size and some rule describing how aggressively that time grows, based on the input size.
 
@@ -148,7 +147,7 @@ We would say that this algorithm:
 
 ### Example
 
-If we need to do a nested traversal on the same collection, such as when attempting to find duplicates, we would, not only need to loop over every element of the array, but also over every element a second time for every element during the first loop. Because we need to loop over the array twice in a nested fashion, we would multiply the size of the array during the first traversal, `n`, by the size of the array during the second traversal to calculate the running time. This will give us $n*n$ or simply $n^2$.
+If we need to do a nested traversal on the same collection, such as when attempting to find duplicates, we would not only need to loop over every element of the array, but also over every element a second time for every element during the first loop. Because we need to loop over the array twice in a nested fashion, we would multiply the size of the array during the first traversal, `n`, by the size of the array during the second traversal to calculate the running time. This will give us $n*n$ or simply $n^2$.
 
 ![quadratic-time](_resources/quadratic-time.svg)
 
@@ -212,17 +211,17 @@ A somewhat contrived example could be to find all the possible combinations of v
 ```js
 const duplicates = (l1, l2, l3) => {
 	const res = []
-    // The first iteration - O(n)
-    for (const n1 of l1) {
-        // The first nested traversal - O(n^2)
-	    for (const n2 of l2) {
-	        // The second nested traversal - O(n^3)
-		    for (const n3 of l3) {
+	// The first iteration - O(n)
+	for (const n1 of l1) {
+		// The first nested traversal - O(n^2)
+		for (const n2 of l2) {
+			// The second nested traversal - O(n^3)
+			for (const n3 of l3) {
 				if (n1+n2+n3 === t) res.push([n1, n2, n3])
-	        }
-        }
-    }
-    return res
+			}
+		}
+	}
+	return res
 }
 
 const l1 = [1, 2, 3, 4]
@@ -236,9 +235,9 @@ console.log(result) // [ [ 2, 8, 6 ], [ 3, 7, 6 ], [ 3, 8, 5 ], [ 4, 6, 6 ], [ 4
 #### Algorithm Analysis
 
 - how many inputs (`n`)?
-	- `n = 3`
-- how many operations to find element with `n` of 3? 
-	- `ops = 3*3*3 = 27`
+	- `n = 4`
+- how many operations to find element with `n` of 4? 
+	- `ops = 4*4*4 = 64`
 - how many operations to find element with `n` of 1,000? 
 	- `ops = 1,000*1,000*1,000 = 1,000,000,000`
 
@@ -341,6 +340,6 @@ We would say that this algorithm:
 
 # Comparing Complexity
 
-This chart shows the relationship between the number of operations of an algorithm and the size of its inputs. We want to be as close to the red line as we can get i.e. fewer operations as the size of the input grows.
+This chart shows the relationship between the number of operations of an algorithm and the size of its inputs. We want to be as close to *constant time* or $O(1)$  as we can get i.e. fewer operations as the size of the input grows.
 
 ![comparing-complexity](_resources/comparing-complexity.svg)
