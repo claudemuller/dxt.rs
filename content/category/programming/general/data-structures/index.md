@@ -14,7 +14,6 @@ tags:
   - typescript
   - c
   - data-structures
-showtoc: "false"
 math: "true"
 ---
 ### Table of Contents
@@ -45,10 +44,10 @@ Arrays are one of the more basic data structures and very broadly-used. Arrays a
 
 ### Code Examples
 
-[{{< inline-img "_resources/go.svg" >}}](https://github.com/claudemuller/data-structures/tree/master/arrays/go)
-[{{< inline-img "_resources/c.svg" >}}](https://github.com/claudemuller/data-structures/tree/master/arrays/c)
-[{{< inline-img "_resources/js.svg" >}}](https://github.com/claudemuller/data-structures/tree/master/arrays/js)
-[{{< inline-img "_resources/ts.svg" >}}](https://github.com/claudemuller/data-structures/tree/master/arrays/ts)
+[{{<inline-img "_resources/go.svg">}}](https://github.com/claudemuller/data-structures/tree/master/arrays/go)
+[{{<inline-img "_resources/c.svg">}}](https://github.com/claudemuller/data-structures/tree/master/arrays/c)
+[{{<inline-img "_resources/js.svg">}}](https://github.com/claudemuller/data-structures/tree/master/arrays/js)
+[{{<inline-img "_resources/ts.svg">}}](https://github.com/claudemuller/data-structures/tree/master/arrays/ts)
 
 ## Two Dimensional Arrays
 
@@ -67,8 +66,8 @@ Arrays are one of the more basic data structures and very broadly-used. Arrays a
 
 ### Code Examples
 
-[{{< inline-img "_resources/go.svg" >}}](https://github.com/claudemuller/data-structures/tree/master/arrays/go)
-[{{< inline-img "_resources/c.svg" >}}](https://github.com/claudemuller/data-structures/tree/master/arrays/c)
-[{{< inline-img "_resources/js.svg" >}}](https://github.com/claudemuller/data-structures/tree/master/arrays/js)
-[{{< inline-img "_resources/ts.svg" >}}](https://github.com/claudemuller/data-structures/tree/master/arrays/ts)
+[{{<inline-img "_resources/go.svg">}}](https://github.com/claudemuller/data-structures/tree/master/arrays/go)
+[{{<inline-img "_resources/c.svg">}}](https://github.com/claudemuller/data-structures/tree/master/arrays/c)
+[{{<inline-img "_resources/js.svg">}}](https://github.com/claudemuller/data-structures/tree/master/arrays/js)
+[{{<inline-img "_resources/ts.svg">}}](https://github.com/claudemuller/data-structures/tree/master/arrays/ts)
 
