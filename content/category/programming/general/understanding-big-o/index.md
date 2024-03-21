@@ -29,6 +29,7 @@ title: Understanding Big-O
 - [Linearithmic Time or `O(n log n)`](#linearithmic-time-or-onlogn)
 - [Exponential Time or `O(2ⁿ)`](#exponential-time-or-o2n)
 - [Factorial Time or `O(n!)`](#factorial-time-or-on)
+- [Comparing Runtime Complexity](#comparing-complexity)
 
 With a bit of programming knowledge and experience, anyone could solve any problem. Solving it in the most optimal way however, is a different story altogether. Here, "most optimal" includes the how well your solution scales. Luckily there is a branch of computer science, called [asymptotic analysis](https://en.wikipedia.org/wiki/Asymptotic_analysis), that provides us with a framework we can use to measure the efficiency of our solutions i.e. our [algorithms](/category/programming/general/algorithms). Big-O is the mathematical notation we use to describe an algorithm's complexity in both time and space.
 
