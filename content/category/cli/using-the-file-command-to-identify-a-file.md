@@ -3,7 +3,6 @@ title: "Using The File Command to Identify a File"
 date: 2022-08-08T03:00:00+02:00
 summary: "Using the `file` command to identify a file's type on a *nix system."
 author: "lukefilewalker"
-featured: true
 categories: ["cli"]
 tags: ["unix", "shell", "file", "linux"]
 #comments: true

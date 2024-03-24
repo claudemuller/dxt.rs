@@ -11,6 +11,7 @@ tags:
   - c
   - arrays
 author: lukefilewalker
+featured: true
 categories:
   - programming
 date: 2024-03-17T04:00:00+02:00

@@ -3,7 +3,6 @@ title: "Copy and Paste to and From the Clipboard in the CLI"
 date: 2015-10-23T18:43:54+02:00
 summary: "How to copy and paste to and from the clipboard while working in the CLI."
 author: "lukefilewalker"
-featured: true
 categories: ["cli"]
 tags: ["bash", "shell", "xclip", "linux"]
 #comments: true

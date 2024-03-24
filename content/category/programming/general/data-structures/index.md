@@ -11,11 +11,12 @@ tags:
   - c
   - data-structures
 author: lukefilewalker
+featured: true
 categories:
   - programming
 date: 2024-03-15T04:00:00+02:00
 summary: What are data structures, what are their differences and what do we use them for.
-title: Data Structures
+title: Data Structures - a Series
 ---
 # What is a Data Structure?
 

@@ -3,6 +3,7 @@ title: Algorithms
 date: 2023-11-08T04:00:00+02:00
 summary: What are algorithms, why do they matter and what are some useful algorithms.
 author: lukefilewalker
+featured: true
 categories:
   - programming
 tags:

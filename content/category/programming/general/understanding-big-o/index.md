@@ -10,6 +10,7 @@ tags:
   - asymptotic-analysis
   - algorithms
 author: lukefilewalker
+featured: true
 categories:
   - programming
 date: 2023-11-09T05:00:00+02:00

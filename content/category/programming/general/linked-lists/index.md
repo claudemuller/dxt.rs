@@ -1,6 +1,7 @@
 ---
 id: linked-lists
 aliases: []
+featured: true
 tags:
   - complexity
   - big-o

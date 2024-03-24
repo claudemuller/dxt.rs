@@ -2,18 +2,14 @@ baseURL: https://dxt.rs/
 languageCode: en-us
 title: "dxt.rs"
 theme: "PaperMod"
-
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
 googleAnalytics: UA-123-45
-
 minify:
   disableXML: true
   minifyOutput: true
-
 params:
   env: development
   title: "dxt.rs"
@@ -25,8 +21,9 @@ params:
   defaultTheme: dark #, light
   disableThemeToggle: false
   #layout: grid
-  width: semi-wide
-
+  # width: semi-wide
+  layout: grid
+  width: wide
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -39,7 +36,6 @@ params:
   showtoc: false
   tocopen: false
   math: false
-
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
@@ -47,18 +43,15 @@ params:
     favicon16x16: "/favicon-16x16.png"
     favicon32x32: "/favicon-32x32.png"
     apple_touch_icon: "/apple-touch-icon.png"
-
   cliLabel:
     text: lukefilewalker
     #label:
     #  text: "d_e_xt_e_.r_ou_s"
     #  icon: /apple-touch-icon.png
     #  iconHeight: 35
-
   homeInfoParams:
-    Title: "Greetings! \U0001F62C"
+    Title: "Greetings! 😬"
     Content: A collection of tech learnings.
-
   socialIcons:
     - name: twitter
       url: "https://twitter.com/luke_filewalker"
@@ -68,21 +61,17 @@ params:
       url: "https://github.com/claudemuller"
     - name: linkedin
       url: "https://www.linkedin.com/in/claudemuller007"
-
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
-
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
-
   editPost:
     URL: "https://github.com/claudemuller/dxt.rs/blob/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
-
     # for search
     # https://fusejs.io/api/options.html
   fuseOpts:
@@ -93,13 +82,11 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-
 outputs:
   home:
     - HTML
     - RSS
     - JSON # is necessary
-
 menu:
   main:
     - identifier: categories
@@ -118,7 +105,6 @@ menu:
       name: profile
       url: https://claudemuller.io
       weight: 40
-
 markup:
   goldmark:
     extensions:

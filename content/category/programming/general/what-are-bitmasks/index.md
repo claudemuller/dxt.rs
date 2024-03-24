@@ -3,6 +3,7 @@ title: What are Bitmasks
 date: 2023-08-18T07:00:00+02:00
 summary: What even are bitmasks, bitfields, binary, bits, bytes, nibbles, words?
 author: lukefilewalker
+featured: true
 categories:
   - programming
 tags:

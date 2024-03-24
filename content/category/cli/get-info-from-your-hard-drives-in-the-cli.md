@@ -3,7 +3,6 @@ title: "Fetching Useful Information About Your Storage Disks in the CLI"
 date: 2022-05-15T18:43:54+02:00
 summary: "How to fetch information from the manufacturer and model to temperatures."
 author: "lukefilewalker"
-featured: true
 categories: ["cli"]
 tags:
   [
