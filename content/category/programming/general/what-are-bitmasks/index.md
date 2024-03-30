@@ -280,11 +280,14 @@ And that summarises what _bitmasks_ are and how to use them.
 
 ---
 
-### Footnotes<a link="footnotes"></a>
+>
+> **_Footnotes_**<a link="footnotes"></a>
+> 
+> 1. A boolean in JavaScript actually has a size of 1 byte, but [byte alignment](https://en.wikipedia.org/wiki/Data_structure_alignment) on 32-bit systems will cause 4 bytes to be used and 8 bytes on 64-bit systems.
+> 2. Other Benefits of Bitfields
+>     - **Performance** - reading or manipulating a single string of bits at a time is faster than doing so on separate variables
+>     - **Cache Efficiency** - one can improve cache efficiency when using bitfields as usually one or more can fit in a cache line
+>     - **Readability and Maintainability** - while bitfields seem hard to read and understand at first they allow one to organise a complex combination of flags into a single variable (name)
+>     - **Reduced Code Size** - using bitfields can greatly reduce code as a single operation can be done on one line as opposed to setting multiple separate variables
+>
 
-1. A boolean in JavaScript actually has a size of 1 byte, but [byte alignment](https://en.wikipedia.org/wiki/Data_structure_alignment) on 32-bit systems will cause 4 bytes to be used and 8 bytes on 64-bit systems.
-2. Other Benefits of Bitfields
-    - **Performance** - reading or manipulating a single string of bits at a time is faster than doing so on separate variables
-    - **Cache Efficiency** - one can improve cache efficiency when using bitfields as usually one or more can fit in a cache line
-    - **Readability and Maintainability** - while bitfields seem hard to read and understand at first they allow one to organise a complex combination of flags into a single variable (name)
-    - **Reduced Code Size** - using bitfields can greatly reduce code as a single operation can be done on one line as opposed to setting multiple separate variables
