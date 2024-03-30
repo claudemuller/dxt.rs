@@ -50,7 +50,7 @@ I recently read the book [Concurrency in Go: Tools and Techniques for Developers
 This basic method I have tried out in the past, but I have tweaked it a little and would like to record some metrics to compare with the previous method.
 
 - marginate (may not be a real word, but it is now :D)
-  - pull the book into into Obsidian in PDF form
+  - pull the book into Obsidian in PDF form
   - use the [Obsidian Annotator plugin](https://github.com/elias-sundqvist/obsidian-annotator) to make [marginalia](#footnotes) and highlights in the PDF
     - use the process explained by [Jeffrey Kaplan](https://www.youtube.com/@jeffreykaplan1) in [his video](https://www.youtube.com/watch?v=uiNB-6SuqVA)
   - pull notes and highlights out into "literature notes" - seeing as how this *thinking and engaging* with the material while making notes is done in the previous step, this step should be automated somehow
