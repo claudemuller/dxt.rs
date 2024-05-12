@@ -30,11 +30,11 @@ What spurred the latest desire to improve my typing speed was coming across a "c
 
 Enter the current experiment - see how much I can improve my touch typing speed in [Dvorak](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout "Dvorak") in 4 weeks of daily, consistent, measurable practice.
 
-## What I'm Expecting/Hypothesis
+# What I'm Expecting/Hypothesis
 
 I'm expecting my typing speed on [Dvorak](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout "Dvorak") to improve by at least 20 [WPM](/ "Words Per Minute") or about 33%.
 
-## Method
+# Method
 
 The idea is to practice 5 minute each day per keyboard for 4 weeks using [keybr.com](https://www.keybr.com/) using two different accounts. My baseline speed measurements in [WPM](/ "Words Per Minute") for a 2 minute test on [Monkey Type](https://typing.com) on both keyboards will be recorded the day before commencement and the at end of each week (7 days) in order to track progress.
 
@@ -46,9 +46,9 @@ The idea is to practice 5 minute each day per keyboard for 4 weeks using [keybr.
 | 12/05/2024 | 00:00 | 2 | 00 | 00 | Lily58 Pro | [image](./typing-test_lily_20012022.11:33.png) |
 | 12/05/2024 | 00:00 | 2 | 00 | 00 | Lemur | [image](./typing-test_lemur_20012022.12:06.png) |
 
-## Variables
+# Variables
 
-### Multiple Keyboards = Different Results
+## Multiple Keyboards = Different Results
 
 Something to mention is that I use 3 different keyboards in my day-to-day, namely:
 - a custom-built [Lily58 Pro](https://keyn.co.za/product/lily58pro/) which I use the bulk of the time
@@ -58,35 +58,35 @@ Something to mention is that I use 3 different keyboards in my day-to-day, namel
 
 That said, I will only be specifically practicing and testing on the Lily and the Thinkpad's (T14) built-in keyboard.
 
-### Additional Improvements
+## Additional Improvements
 
 I will also try to get into the habit, when I've made a mistake about 3 characters or more into a word, of using `ctrl+backspace` to delete the entire word and retype the whole thing again. I have no way to record the progress of the adoption of this technique nor any way to know how it has affected my typing speed.
 
-### Accuracy of Test Results
+## Accuracy of Test Results
 
 With regard to the test results, I will take 1x 2 minute tests, each with a different keyboard and with a 5-minute break in-between.
 
-## Logbook
+# Logbook
 
-### Activity Tracker
+## Activity Tracker
 
 | Date | Time | Lily | T14 |
 |---|:---:|:---:|:---:|
 | 13/05/2024 | 07:30 |  | |
 
-### Test Results
+## Test Results
 
 | Date | Time | Duration (min) | Speed (WPM) | Accuracy (%) | Keyboard | Screenshot |
 |---|---|:---:|:---:|:---:|---|---|
 | 12/05/2024 | 00:00 | 2 | 00 | 00 | Lily | [image](./typing-test_lily_20012022.11:33.png) |
 | 12/05/2024 | 00:00 | 2 | 00 | 00 | T14 | [image](./typing-test_lemur_20012022.12:06.png) |
 
-## Journal
+# Journal
 
 *__12/05/2024__*  
 Captain's log: Taking initial measurements... 
 
-## Findings/Results
+# Findings/Results
 
 **Final measurements**:
 | Date | Time | Duration (min) | Speed (WPM) | Accuracy (%) | Keyboard |
@@ -95,7 +95,7 @@ Captain's log: Taking initial measurements...
 | 09/06/2024 | 00:00 | 2 | 0 | 0 | T14 |
 | 09/06/2024 | 00:00 | 2 | 0 | 0 | Lemur |
 
-## Conclusion
+# Conclusion
 
 ...
 
