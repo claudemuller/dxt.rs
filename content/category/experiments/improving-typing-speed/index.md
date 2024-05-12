@@ -11,8 +11,7 @@ tags:
 author: lukefilewalker
 categories:
   - productivity
-  - experiments
-date: 2024-05-12T00:00:00+01:00
+date: 2024-04-12T00:00:00+01:00
 draft: false
 exp_name: EXP_TypingSpeedImprovement_20240512.v1
 featured: true
@@ -36,15 +35,15 @@ I'm expecting my typing speed on [Dvorak](https://en.wikipedia.org/wiki/Dvorak_k
 
 # Method
 
-The idea is to practice 5 minute each day per keyboard for 4 weeks using [keybr.com](https://www.keybr.com/) using two different accounts. My baseline speed measurements in [WPM](/ "Words Per Minute") for a 2 minute test on [Monkey Type](https://typing.com) on both keyboards will be recorded the day before commencement and the at end of each week (7 days) in order to track progress.
+The idea is to practice 10 minute each day per keyboard for 4 weeks using [keybr.com](https://www.keybr.com/) using two different accounts. My baseline speed measurements in [WPM](/ "Words Per Minute") for a 2 minute test on [Monkey Type](https://typing.com) on both keyboards will be recorded the day before commencement and the at end of each week (7 days) in order to track progress.
 
 **Commencement**: 12/05/2024  
 **Duration**: 4 weeks  
 **Baseline Measurements**:
 | Date | Time | Duration (min) | Speed (WPM) | Accuracy (%) | Keyboard | Screenshot |
 |---|---|:---:|:---:|:---:|:---|:---:|
-| 12/05/2024 | 00:00 | 2 | 00 | 00 | Lily58 Pro | [image](./typing-test_lily_20012022.11:33.png) |
-| 12/05/2024 | 00:00 | 2 | 00 | 00 | Lemur | [image](./typing-test_lemur_20012022.12:06.png) |
+| 12/05/2024 | 00:00 | 2 | 62 | 90 | Lily | [image](./2024-05-12_10-36_lily.png) |
+| 12/05/2024 | 00:00 | 2 | 46 | 81 | T14 | [image](./2024-05-12_10-50_t14.png) |
 
 # Variables
 
@@ -78,8 +77,8 @@ With regard to the test results, I will take 1x 2 minute tests, each with a diff
 
 | Date | Time | Duration (min) | Speed (WPM) | Accuracy (%) | Keyboard | Screenshot |
 |---|---|:---:|:---:|:---:|---|---|
-| 12/05/2024 | 00:00 | 2 | 00 | 00 | Lily | [image](./typing-test_lily_20012022.11:33.png) |
-| 12/05/2024 | 00:00 | 2 | 00 | 00 | T14 | [image](./typing-test_lemur_20012022.12:06.png) |
+| 12/05/2024 | 00:00 | 2 | 62 | 90 | Lily | [image](./2024-05-12_10-36_lily.png) |
+| 12/05/2024 | 00:00 | 2 | 46 | 81 | T14 | [image](./2024-05-12_10-50_t14.png) |
 
 # Journal
 
