@@ -36,7 +36,7 @@ I'm expecting my typing speed on [Dvorak](https://en.wikipedia.org/wiki/Dvorak_k
 
 # Method
 
-The idea is to practice 10 minute each day per keyboard for 4 weeks using [keybr.com](https://www.keybr.com/) using two different accounts. My baseline speed measurements in [WPM](/ "Words Per Minute") for a 2 minute test on [Monkey Type](https://typing.com) on both keyboards will be recorded the day before commencement and the at end of each week (7 days) in order to track progress.
+The idea is to practice 5 minute each day per keyboard for 4 weeks using [keybr.com](https://www.keybr.com/) using two different accounts. My baseline speed measurements in [WPM](/ "Words Per Minute") for a 2 minute test on [Monkey Type](https://typing.com) on both keyboards will be recorded the day before commencement and the at end of each week (7 days) in order to track progress.
 
 **Commencement**: 12/05/2024  
 **Duration**: 4 weeks  
