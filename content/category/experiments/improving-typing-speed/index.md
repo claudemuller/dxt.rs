@@ -74,6 +74,7 @@ With regard to the test results, I will take 1x 2 minute tests, each with a diff
 |---|:---:|:---:|:---:|
 | 13/05/2024 | 07:30 | ✅ | ✅ |
 | 14/05/2024 | 14:03 | ✅ | ✅ |
+| 15/05/2024 | 06:62 | ✅ | ✅ |
 
 ## Test Results
 
@@ -86,6 +87,8 @@ With regard to the test results, I will take 1x 2 minute tests, each with a diff
 
 *__12/05/2024__*  
 Captain's log: Taking initial measurements... 
+*__15/05/2024__*  
+Captain's log: I noticed that putting the Thinkpad in front of me as opposed to out there where it is during my work day is much more comfortable, and it feels like I'm able to type faster with less mistakes generally - go figure 😅
 
 # Findings/Results
 
