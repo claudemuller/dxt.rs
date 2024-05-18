@@ -77,6 +77,7 @@ With regard to the test results, I will take 1x 2 minute tests, each with a diff
 | 15/05/2024 | 07:30 | ✅ | ✅ | |
 | 16/05/2024 | 06:62 | ✅ | ✅ | |
 | 17/05/2024 | 09:05 | ✅ | ✅ | It's really hot, and I'm tired today, performance was lackluster. |
+| 18/05/2024 | 16:45 | ✅ | ✅ | |
 
 ## Test Results
 
@@ -87,13 +88,13 @@ With regard to the test results, I will take 1x 2 minute tests, each with a diff
 
 # Journal
 
-*__12/05/2024__*  
+*__12/05/2024__* 
 Captain's log: Taking initial measurements... 
 
-*__16/05/2024__*  
+*__16/05/2024__* 
 Captain's log: I noticed that putting the Thinkpad in front of me as opposed to out there where it is during my work day is much more comfortable, and it feels like I'm able to type faster with fewer mistakes generally - go figure 😅
 
-*__17/05/2024__*
+*__17/05/2024__* 
 My right wrist has been suffering under the five minutes of continuous practice. I will try to stand and see if that changes anything.
 
 # Findings/Results
