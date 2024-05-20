@@ -82,10 +82,12 @@ With regard to the test results, I will take 1x 2 minute tests, each with a diff
 
 ## Test Results
 
-| Date | Time | Duration (min) | Speed (WPM) | Accuracy (%) | Keyboard | Screenshot |
-|---|---|:---:|:---:|:---:|---|---|
-| 12/05/2024 | 00:00 | 2 | 62 | 90 | Lily | [image](./2024-05-12_10-36_lily.png) |
-| 12/05/2024 | 00:00 | 2 | 46 | 81 | T14 | [image](./2024-05-12_10-50_t14.png) |
+| Date | Time | Duration (min) | Speed (WPM) | Accuracy (%) | Keyboard | Screenshot | Notes |
+|---|---|:---:|:---:|:---:|---|---|---|
+| 12/05/2024 | 10:34 | 2 | 62 | 90 | Lily | [image](./2024-05-12_10-36_lily.png) | |
+| 12/05/2024 | 10:48 | 2 | 46 | 81 | T14 | [image](./2024-05-12_10-50_t14.png) | |
+| 20/05/2024 | 07:30 | 2 | 61 | 89 | Lily | [image](./2024-05-20_07-32_lily.png) | Felt a lot of pressure and made many mistakes :/ |
+| 20/05/2024 | 07:38 | 2 | 00 | 00 | T14 | [image](./2024-05-20_07-40_t14.png) | |
 
 # Journal
 
@@ -97,6 +99,9 @@ Captain's log: I noticed that putting the Thinkpad in front of me as opposed to 
 
 *__17/05/2024__* 
 My right wrist has been suffering under the five minutes of continuous practice. I will try to stand and see if that changes anything.
+
+*__20/05/2024__* 
+Did the tests the following at as I had been in the sun most of the previous day and felt quite drained so I didn't think that it would be the best time. However, the test results today are pretty crappy :/
 
 # Findings/Results
 
