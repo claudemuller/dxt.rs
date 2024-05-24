@@ -83,6 +83,7 @@ With regard to the test results, I will take 1x 2 minute tests, each with a diff
 | 21/05/2024 | 06:30 | ✅ | ✅ | Tried standing and typing felt better; better average speed and accuracy. |
 | 22/05/2024 | 08:04 | ✅ | ✅ | Standing; average speed and accuracy improved. |
 | 23/05/2024 | 08:04 | ✅ | ✅ | |
+| 24/05/2024 | 08:04 | ✅ | ✅ | |
 
 ## Test Results
 
