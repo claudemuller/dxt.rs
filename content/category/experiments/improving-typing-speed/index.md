@@ -95,6 +95,8 @@ With regard to the test results, I will take 1x 2 minute tests, each with a diff
 | 12/05/2024 | 10:48 | 2 | 46 | 81 | T14 | [image](./2024-05-12_10-50_t14.png) | |
 | 20/05/2024 | 07:30 | 2 | 61 | 89 | Lily | [image](./2024-05-20_07-32_lily.png) | Felt a lot of pressure and made many mistakes :/ |
 | 20/05/2024 | 07:38 | 2 | 55 | 87 | T14 | [image](./2024-05-20_07-40_t14.png) | An improvement over the first test at least |
+| 26/05/2024 | 13:37 | 2 | 64 | 90 | Lily | [image](./2024-05-26_13-39_lily.png) | |
+| 26/05/2024 | 13:58 | 2 | 61 | 91 | T14 | [image](./2024-05-26_14-00_t14.png) | |
 
 # Journal
 
