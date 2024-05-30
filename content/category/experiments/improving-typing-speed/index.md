@@ -88,6 +88,8 @@ With regard to the test results, I will take 1x 2 minute tests, each with a diff
 | 26/05/2024 | 08:04 | ✅ | ✅ | |
 | 27/05/2024 | 08:11 | ✅ | ✅ | |
 | 28/05/2024 | 06:23 | ✅ | ✅ | |
+| 29/05/2024 | 06:23 | ✅ | ✅ | |
+| 30/05/2024 | 06:23 | ✅ | ✅ | |
 
 ## Test Results
 
