@@ -91,6 +91,8 @@ With regard to the test results, I will take 1x 2 minute tests, each with a diff
 | 29/05/2024 | 06:43 | ✅ | ✅ | |
 | 30/05/2024 | 06:14 | ✅ | ✅ | |
 | 31/05/2024 | 07:31 | ✅ | ✅ | |
+| 01/06/2024 | 00:00 |  |  | Out the entire day and just couldn't find time at the KB. |
+| 02/06/2024 | 12:50 | ✅ | ✅ | |
 
 ## Test Results
 
