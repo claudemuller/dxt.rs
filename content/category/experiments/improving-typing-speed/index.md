@@ -95,6 +95,9 @@ With regard to the test results, I will take 1x 2 minute tests, each with a diff
 | 02/06/2024 | 12:50 | ✅ | ✅ | |
 | 03/06/2024 | 08:21 | ✅ | ✅ | |
 | 04/06/2024 | 07:36 | ✅ | ✅ | |
+| 05/06/2024 | 07:42 | ✅ | ✅ | |
+| 06/06/2024 | 08:03 | ✅ | ✅ | |
+| 07/06/2024 | 16:32 | ✅ | ✅ | |
 
 ## Test Results
 
