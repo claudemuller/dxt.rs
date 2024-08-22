@@ -24,7 +24,7 @@ title: Data Structures - Arrays
 
 Arrays are one of the more basic data structures and very broadly-used. Arrays are stored in contiguous memory chunks which provides some benefits and drawbacks. In some languages like JavaScript however, arrays are objects and thus not of a fixed size or necessarily stored contiguously.
 
-Iterating through an array is done in [constant time](/category/programming/general/understanding-big-o/#constant-time-or-o1).
+Indexing into an array is done in [constant time](/category/programming/general/understanding-big-o/#constant-time-or-o1), while iterating through an array is done in [linear time](/category/programming/general/understanding-big-o/#linear-time-or-on).
 
 ## One Dimensional Arrays
 
