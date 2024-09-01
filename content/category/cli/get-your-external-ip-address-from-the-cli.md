@@ -1,11 +1,18 @@
 ---
-title: "Get Your External IP Address From the CLI"
+id: get-your-external-ip-address-from-the-cli
+aliases: []
+tags:
+  - shell
+  - wget
+  - bash
+  - curl
+  - linux
+author: lukefilewalker
+categories:
+  - cli
 date: 2015-12-28T18:43:54+02:00
-summary: "How to get your external IP address on the CLI."
-author: "lukefilewalker"
-categories: ["cli"]
-tags: ["shell", "wget", "bash", "curl", "linux"]
-#comments: true
+summary: How to get your external IP address on the CLI.
+title: Get Your External IP Address From the CLI
 ---
 
 As long as you have `wget` or `curl` installed, this should work:

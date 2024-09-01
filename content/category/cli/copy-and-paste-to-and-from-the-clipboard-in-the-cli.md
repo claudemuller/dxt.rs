@@ -1,11 +1,17 @@
 ---
-title: "Copy and Paste to and From the Clipboard in the CLI"
+id: copy-and-paste-to-and-from-the-clipboard-in-the-cli
+aliases: []
+tags:
+  - bash
+  - shell
+  - xclip
+  - linux
+author: lukefilewalker
+categories:
+  - cli
 date: 2015-10-23T18:43:54+02:00
-summary: "How to copy and paste to and from the clipboard while working in the CLI."
-author: "lukefilewalker"
-categories: ["cli"]
-tags: ["bash", "shell", "xclip", "linux"]
-#comments: true
+summary: How to copy and paste to and from the clipboard while working in the CLI.
+title: Copy and Paste to and From the Clipboard in the CLI
 ---
 
 Firstly make sure that you have the required software installed – `xclip` for Linux or `pbcopy` for MacOS/OSX.

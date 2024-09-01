@@ -1,11 +1,24 @@
 ---
-title: "Fetch Process IDs or Names of the Processes Listening On Ports"
+id: fetch-processes-listening-on-open-ports
+aliases: []
+tags:
+  - bash
+  - shell
+  - lsof
+  - linux
+  - net
+  - port
+  - unix
+  - netstat
+  - macos
+  - linux
+  - windows
+author: lukefilewalker
+categories:
+  - cli
 date: 2022-08-28T08:00:00+02:00
-summary: "Fetch Process IDs or Names of the Processes Listening On Ports."
-author: "lukefilewalker"
-categories: ["cli"]
-tags: ["bash", "shell", "lsof", "linux", "net", "port", "unix", "netstat", "macos", "linux", "windows"]
-#comments: true
+summary: Fetch Process IDs or Names of the Processes Listening On Ports.
+title: Fetch Process IDs or Names of the Processes Listening On Ports
 ---
 
 Sometimes you need to see which process is running on which port on your system. That may be out of pure curiosity, because an application you're developing is complaining that the intended port is in use, or, dun dun dun, you have a backdoor accepting connections!

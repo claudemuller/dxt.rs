@@ -1,11 +1,6 @@
 ---
-title: Algorithms
-date: 2023-11-08T04:00:00+02:00
-summary: What are algorithms, why do they matter and what are some useful algorithms.
-author: lukefilewalker
-featured: true
-categories:
-  - programming
+id: index
+aliases: []
 tags:
   - complexity
   - big-o
@@ -15,8 +10,15 @@ tags:
   - javascript
   - typescript
   - c
-showtoc: "true"
-draft: "true"
+author: lukefilewalker
+categories:
+  - programming
+date: 2023-11-08T04:00:00+02:00
+draft: true
+featured: true
+showtoc: true
+summary: What are algorithms, why do they matter and what are some useful algorithms.
+title: Algorithms
 ---
 ## What is an algorithm?
 

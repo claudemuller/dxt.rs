@@ -1,16 +1,23 @@
 ---
-title: "Deleting an Object Property with ES6"
-date: 2021-12-05T09:20:00+02:00
-summary: "How to delete one or more object properties using ES6 syntax."
-author: "lukefilewalker"
-categories: ["programming", "javascript"]
-tags: ["code", "es6", "javascript", "programming"]
+id: deleting-an-object-property-with-es6
+aliases: []
+tags:
+  - code
+  - es6
+  - javascript
+  - programming
+author: lukefilewalker
+categories:
+  - programming
+  - javascript
 cover:
-    image: "object-delection.jpg"
-    alt: "typing"
-    caption: "Photo by cottonbro from Pexels"
-    relative: true
-#comments: true
+  alt: typing
+  caption: Photo by cottonbro from Pexels
+  image: object-delection.jpg
+  relative: true
+date: 2021-12-05T09:20:00+02:00
+summary: How to delete one or more object properties using ES6 syntax.
+title: Deleting an Object Property with ES6
 ---
 
 Instead of using the tried and tested `delete` operator, you could show how evolved you are by employing [ES6](https://wikiless.org/wiki/ECMAScript?lang=en#6th_Edition_%E2%80%93_ECMAScript_2015) syntax.

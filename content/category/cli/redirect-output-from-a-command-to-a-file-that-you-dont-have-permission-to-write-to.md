@@ -1,11 +1,17 @@
 ---
-title: "Redirect Output When You Don't Have Permission to"
+id: redirect-output-from-a-command-to-a-file-that-you-dont-have-permission-to-write-to
+aliases: []
+tags:
+  - shell
+  - bash
+  - linux
+  - redirect
+author: lukefilewalker
+categories:
+  - cli
 date: 2022-09-02T22:15:00+02:00
-summary: "How to redirect output from a command you've run to a file that you don't have permission to write to i.e. to a destination that you need to use `sudo` on."
-author: "lukefilewalker"
-categories: ["cli"]
-tags: ["shell", "bash", "linux", "redirect"]
-#comments: true
+summary: How to redirect output from a command you've run to a file that you don't have permission to write to i.e. to a destination that you need to use `sudo` on.
+title: Redirect Output When You Don't Have Permission to
 ---
 
 Redirecting the output from a command to a file is pretty trivial - you accomplish it with something like this:

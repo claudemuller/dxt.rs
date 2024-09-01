@@ -1,11 +1,16 @@
 ---
-title: "Building Neovim from Source"
+id: index
+aliases: []
+tags:
+  - nvim
+  - code
+  - editor
+author: lukefilewalker
+categories:
+  - editors
 date: 2022-10-23T11:00:00+02:00
-summary: "How to build Neovim from source if, for example, there is no binary for your system."
-author: "lukefilewalker"
-categories: ["editors"]
-tags: ["nvim", "code", "editor"]
-#comments: true
+summary: How to build Neovim from source if, for example, there is no binary for your system.
+title: Building Neovim from Source
 ---
 
 You may need to build Neovim from scratch for a variety of reasons, some of these include:

@@ -1,11 +1,16 @@
 ---
-title: "Running a Command on Each Item in a List"
+id: running-a-command-on-each-something-in-a-list
+aliases: []
+tags:
+  - bash
+  - shell
+  - while
+author: lukefilewalker
+categories:
+  - cli
 date: 2022-10-09T14:15:00+02:00
-summary: "Easily run a command on each item in a list - think list of filenames for example."
-author: "lukefilewalker"
-categories: ["cli"]
-tags: ["bash", "shell", "while"]
-#comments: true
+summary: Easily run a command on each item in a list - think list of filenames for example.
+title: Running a Command on Each Item in a List
 ---
 
 Ever wanted to run some command on a list of inputs? That is to say, execute said command on each item in a list. That could be running a command on a list of file names, running a command multiple times each with at different input value etc.

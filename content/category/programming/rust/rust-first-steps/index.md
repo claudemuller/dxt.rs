@@ -1,17 +1,24 @@
 ---
-title: "Rust - First Steps"
-date: 2022-10-08T11:20:00+02:00
-summary: "Take your first steps with Rust by installing the toolchain and writing your first program."
-author: "lukefilewalker"
-categories: ["programming", "rust"]
-tags: ["code", "rust", "programming", "hello-world"]
+id: index
+aliases: []
+tags:
+  - code
+  - rust
+  - programming
+  - hello-world
+author: lukefilewalker
+categories:
+  - programming
+  - rust
 cover:
-  image: "rust-first-steps.webp"
-  alt: "rust"
-  caption: "Photo by Opensource.com"
+  alt: rust
+  caption: Photo by Opensource.com
+  image: rust-first-steps.webp
   relative: true
+date: 2022-10-08T11:20:00+02:00
 showtoc: true
-#comments: true
+summary: Take your first steps with Rust by installing the toolchain and writing your first program.
+title: Rust - First Steps
 ---
 
 Rust aims to provide a more ergonomic programming experience to all developers while helping you to write less insecure and faulty code (especially when it comes to low-level code and concurrency) and producing fast and stable programs.

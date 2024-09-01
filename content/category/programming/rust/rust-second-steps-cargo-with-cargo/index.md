@@ -1,17 +1,24 @@
 ---
-title: "Rust - Second Steps (with Cargo)"
-date: 2022-10-08T19:00:00+02:00
-summary: "Take your second steps with Rust by exploring the official and widely used package manager, Cargo."
-author: "lukefilewalker"
-categories: ["programming", "rust"]
-tags: ["code", "rust", "programming", "cargo"]
+id: index
+aliases: []
+tags:
+  - code
+  - rust
+  - programming
+  - cargo
+author: lukefilewalker
+categories:
+  - programming
+  - rust
 cover:
-  image: "rust-second-steps.webp"
-  alt: "rust"
-  caption: "Photo by Opensource.com"
+  alt: rust
+  caption: Photo by Opensource.com
+  image: rust-second-steps.webp
   relative: true
+date: 2022-10-08T19:00:00+02:00
 showtoc: true
-#comments: true
+summary: Take your second steps with Rust by exploring the official and widely used package manager, Cargo.
+title: Rust - Second Steps (with Cargo)
 ---
 
 Rust has an official package manager that most Rust programmers, so-called "Rustaceans", called Cargo. Cargo's features include simplifying the creation of your projects, managing their dependencies and compiling and running your projects to name a few.

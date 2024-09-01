@@ -1,13 +1,15 @@
 ---
-title: Disabling Telemetry in Firefox
-date: 2023-11-08T04:00:00+02:00
-summary: ???
+id: index
+aliases: []
+tags: []
 author: lukefilewalker
 categories:
   - privacy
-tags: 
-showtoc: "false"
-draft: "true"
+date: 2023-11-08T04:00:00+02:00
+draft: true
+showtoc: false
+summary: ???
+title: Disabling Telemetry in Firefox
 ---
 
 - https://www.howtogeek.com/557929/how-to-see-and-disable-the-telemetry-data-firefox-collects-about-you/

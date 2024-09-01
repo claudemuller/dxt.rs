@@ -1,10 +1,6 @@
 ---
-title: Fixing Permission denied or Could not read from remote repository issues
-date: 2023-11-08T05:00:00+02:00
-summary: How fix the dreaded Permission denied/Could not read from remote repository issue i.e. how to set up an SSH agent system wide that manages SSH keys seamlessly (on Linux).
-author: lukefilewalker
-categories:
-  - OS
+id: index
+aliases: []
 tags:
   - linux
   - ssh
@@ -13,6 +9,12 @@ tags:
   - git
   - systemctl
   - systemd
+author: lukefilewalker
+categories:
+  - OS
+date: 2023-11-08T05:00:00+02:00
+summary: How fix the dreaded Permission denied/Could not read from remote repository issue i.e. how to set up an SSH agent system wide that manages SSH keys seamlessly (on Linux).
+title: Fixing Permission denied or Could not read from remote repository issues
 ---
 I don't know about you, but I struggle with this a lot - until now!! 🦾
 

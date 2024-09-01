@@ -1,11 +1,16 @@
 ---
-title: "Paging Through Large Result Sets in the MySQL CLI"
+id: paging-through-large-result-sets-in-the-mysql-cli
+aliases: []
+tags:
+  - mysql
+  - cli
+  - shell
+author: lukefilewalker
+categories:
+  - databases
 date: 2015-03-23T20:45:11+02:00
-summary: "How to page through large result sets when working with the MySQL command line tool."
-author: "lukefilewalker"
-categories: ["databases"]
-tags: ["mysql", "cli", "shell"]
-#comments: true
+summary: How to page through large result sets when working with the MySQL command line tool.
+title: Paging Through Large Result Sets in the MySQL CLI
 ---
 
 So you're hammering away at the console and shoot a couple of queries at `mysql` only to realise that the result you were after has flown by and out of sight! Luckily I can think of two ways to fix this.

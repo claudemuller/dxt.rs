@@ -1,12 +1,18 @@
 ---
-title: "Basic Postgresql"
+id: basic-postgresql
+aliases: []
+tags:
+  - postgresql
+  - postgres
+  - psql
+  - sql
+author: lukefilewalker
+categories:
+  - database
 date: 2022-09-02T22:15:00+02:00
-summary: "Some basic Postgresql stuffs"
-author: "lukefilewalker"
-categories: ["database"]
-tags: ["postgresql", "postgres", "psql", "sql"]
-#comments: true
 draft: true
+summary: Some basic Postgresql stuffs
+title: Basic Postgresql
 ---
 
 ## `psql`

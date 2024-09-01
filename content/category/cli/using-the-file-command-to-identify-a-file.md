@@ -1,11 +1,17 @@
 ---
-title: "Using The File Command to Identify a File"
+id: using-the-file-command-to-identify-a-file
+aliases: []
+tags:
+  - unix
+  - shell
+  - file
+  - linux
+author: lukefilewalker
+categories:
+  - cli
 date: 2022-08-08T03:00:00+02:00
-summary: "Using the `file` command to identify a file's type on a *nix system."
-author: "lukefilewalker"
-categories: ["cli"]
-tags: ["unix", "shell", "file", "linux"]
-#comments: true
+summary: Using the `file` command to identify a file's type on a *nix system.
+title: Using The File Command to Identify a File
 ---
 
 If you've ever had a file without an extension lying around your filesystem or a file that says it's a jpeg but refuses to show itself in a graphics application, the `file` command is for you. The command ships with just about every \*nix under the sun (including MacOS/OSX).

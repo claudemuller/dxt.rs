@@ -1,11 +1,6 @@
 ---
-title: What are Bitmasks
-date: 2023-08-18T07:00:00+02:00
-summary: What even are bitmasks, bitfields, binary, bits, bytes, nibbles, words?
-author: lukefilewalker
-featured: true
-categories:
-  - programming
+id: index
+aliases: []
 tags:
   - bitfield
   - bitmask
@@ -18,7 +13,14 @@ tags:
   - not
   - or
   - bitwise
-showtoc: "true"
+author: lukefilewalker
+categories:
+  - programming
+date: 2023-08-18T07:00:00+02:00
+featured: true
+showtoc: true
+summary: What even are bitmasks, bitfields, binary, bits, bytes, nibbles, words?
+title: What are Bitmasks
 ---
 A _bitmask_ is a mask (think of a [multiple choice grading key](https://sockmonkeyscience.com/2019/02/27/grading-multiple-choice-answer-sheets-quickly/)) used to manipulate or reveal values in a _bitmask_. But to understand what a bitmask is we first need to understand what a bitfield is.
 

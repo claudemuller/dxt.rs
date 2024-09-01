@@ -1,24 +1,24 @@
 ---
-title: "Fetching Useful Information About Your Storage Disks in the CLI"
-date: 2022-05-15T18:43:54+02:00
-summary: "How to fetch information from the manufacturer and model to temperatures."
-author: "lukefilewalker"
-categories: ["cli"]
+id: get-info-from-your-hard-drives-in-the-cli
+aliases: []
 tags:
-  [
-    "hwinfo",
-    "lshw",
-    "hdparm",
-    "nvme-cli",
-    "nvme",
-    "ssd",
-    "hard-disk",
-    "linux",
-    "storage",
-    "temperature",
-    "stats",
-  ]
-#comments: true
+  - hwinfo
+  - lshw
+  - hdparm
+  - nvme-cli
+  - nvme
+  - ssd
+  - hard-disk
+  - linux
+  - storage
+  - temperature
+  - stats
+author: lukefilewalker
+categories:
+  - cli
+date: 2022-05-15T18:43:54+02:00
+summary: How to fetch information from the manufacturer and model to temperatures.
+title: Fetching Useful Information About Your Storage Disks in the CLI
 ---
 
 Ever needed the model number of the hard disk in your machine but been too lazy (or smart?) to open the sucker up to look? Agreed - me too. Luckily, there are a handful of tools that we can use in a \*nix (probably :D - definitely in an LInUx environment) to get all that juicy hard disk gossip!

@@ -1,6 +1,6 @@
 ---
 id: index
-aliases: 
+aliases: []
 tags:
   - complexity
   - big-o
@@ -10,12 +10,12 @@ tags:
   - asymptotic-analysis
   - algorithms
 author: lukefilewalker
-featured: true
 categories:
   - programming
 date: 2023-11-09T05:00:00+02:00
-showtoc: false
+featured: true
 math: true
+showtoc: false
 summary: What is Big-O even and why should we care?
 title: Understanding Big-O
 ---

@@ -1,11 +1,18 @@
 ---
-title: "Keep a Docker Container Running for Debugging Purposes"
+id: keep-a-docker-container-running-for-debugging-purposes
+aliases: []
+tags:
+  - unix
+  - devops
+  - docker
+  - linux
+  - containers
+author: lukefilewalker
+categories:
+  - devops
 date: 2022-11-27T07:00:00+02:00
-summary: "Four methods to keep a docker container from terminating after a failure in order to debug the issue."
-author: "lukefilewalker"
-categories: ["devops"]
-tags: ["unix", "devops", "docker", "linux", "containers"]
-#comments: true
+summary: Four methods to keep a docker container from terminating after a failure in order to debug the issue.
+title: Keep a Docker Container Running for Debugging Purposes
 ---
 
 A container is an ecosystem for your application and exists as long as your application is running. If you application crashes or never gets off the ground, the Docker container will terminate. It would be helpful to monitor your app and do some scratching around while/after you application crashes in order to track down the cause of the failure. However, because a Docker container is kind of like a little server/machine, if it is off/terminated by the time you want to investigate and won't be able to log into it.

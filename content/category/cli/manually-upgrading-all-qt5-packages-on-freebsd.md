@@ -1,11 +1,19 @@
 ---
-title: "Manually Upgrading All Qt5 Packages on FreeBSD"
+id: manually-upgrading-all-qt5-packages-on-freebsd
+aliases: []
+tags:
+  - bash
+  - shell
+  - xargs
+  - pkg
+  - freebsd
+author: lukefilewalker
+categories:
+  - cli
+  - OS
 date: 2019-10-17T18:43:54+02:00
-summary: "How to manually upgrade all QT5 packages on FreeBSD with `xargs`."
-author: "lukefilewalker"
-categories: ["cli", "OS"]
-tags: ["bash", "shell", "xargs", "pkg", "freebsd"]
-#comments: true
+summary: How to manually upgrade all QT5 packages on FreeBSD with `xargs`.
+title: Manually Upgrading All Qt5 Packages on FreeBSD
 ---
 
 It all started with my obsession to switch to FreeBSD from Manjaro Linux as my daily driver. But there were a few caveats! First, I couldn't get Jetbrains' IDEs to work... But fixed that. Then the other main stumbling block was getting Slack messenger to work on FreeBSD.

@@ -9,7 +9,6 @@ author: lukefilewalker
 categories:
   - security
   - sqli
-comments: true
 date: 2022-10-13T04:30:00+02:00
 draft: true
 showtoc: true

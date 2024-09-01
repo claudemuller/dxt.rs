@@ -1,11 +1,15 @@
 ---
-title: "Getting a List of Files in a Directory"
+id: getting-a-list-of-files-in-a-directory
+aliases: []
+tags:
+  - bash
+  - shell
+author: lukefilewalker
+categories:
+  - cli
 date: 2015-05-08T20:40:03+02:00
-summary: "How to display a single column list of all the files in a directory."
-author: "lukefilewalker"
-categories: ["cli"]
-tags: ["bash", "shell"]
-#comments: true
+summary: How to display a single column list of all the files in a directory.
+title: Getting a List of Files in a Directory
 ---
 
 Ever need a clean, single column, listing of all the files in a directory in *nix that you could output to a file? Maybe a list of all the series or movies you own.. Here are a couple of additions to the old `ls`  command we all love ;P

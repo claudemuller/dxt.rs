@@ -1,7 +1,6 @@
 ---
 id: linked-lists
 aliases: []
-featured: true
 tags:
   - complexity
   - big-o
@@ -16,6 +15,8 @@ author: lukefilewalker
 categories:
   - programming
 date: 2024-03-21T04:00:00+02:00
+draft: true
+featured: true
 math: true
 showtoc: true
 summary: What are linked lists, their variations and their uses.

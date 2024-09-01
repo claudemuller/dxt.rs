@@ -1,11 +1,17 @@
 ---
-title: "Using an Android Device as a Second Monitor on *nix"
+id: using-an-android-device-as-a-second-monitor-on-nix
+aliases: []
+tags:
+  - x
+  - android
+  - linux
+  - unix
+author: lukefilewalker
+categories:
+  - OS
 date: 2021-12-05T17:00:00+02:00
-summary: "Using X forwarding sending an application over to an Android device is relatively painless."
-author: "lukefilewalker"
-categories: ["OS"]
-tags: ["x", "android", "linux", "unix"]
-#comments: true
+summary: Using X forwarding sending an application over to an Android device is relatively painless.
+title: Using an Android Device as a Second Monitor on *nix
 ---
 
 Ever found yourself on the run, needing a multiple-monitor setup but only have your \*nix machine and an Android device handy? Following is a few commands to run applications on the Android device.

@@ -1,11 +1,14 @@
 ---
-title: "Remove Trailing Whitespace in Vim"
+id: remove-trailing-whitespace-in-vim
+aliases: []
+tags:
+  - vim
+author: lukefilewalker
+categories:
+  - editors
 date: 2015-01-30T20:45:11+02:00
-summary: "How to remove trailing whitespace in a file with `vim`."
-author: "lukefilewalker"
-categories: ["editors"]
-tags: ["vim"]
-#comments: true
+summary: How to remove trailing whitespace in a file with `vim`.
+title: Remove Trailing Whitespace in Vim
 ---
 
 So once you know how to find and replace text in `vim`, you can easily replace trailing whitespace on lines of code with the following:

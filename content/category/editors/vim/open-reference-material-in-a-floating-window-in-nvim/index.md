@@ -1,12 +1,19 @@
 ---
-title: "Open Reference Material in a Floating Window In Neovim"
+id: index
+aliases: []
+tags:
+  - nvim
+  - cht.sh
+  - reference
+  - floating-window
+  - buffer
+author: lukefilewalker
+categories:
+  - editors
 date: 2021-11-26T07:50:00+00:00
-summary: "View reference material in a CLI web browser or via a terminal command in a floating window within Neovim."
-author: "lukefilewalker"
-categories: ["editors"]
-tags: ["nvim", "cht.sh", "reference", "floating-window", "buffer"]
 showtoc: true
-#comments: true
+summary: View reference material in a CLI web browser or via a terminal command in a floating window within Neovim.
+title: Open Reference Material in a Floating Window In Neovim
 ---
 
 If you don't have an above amazing working memory or don't possess an eidetic memory, having reference material at hand helps a lot to get coding or writing tasks done. There are a few solutions to this problem ranging from having an extra monitor to [getting a brain tumor like George Malley](https://www.imdb.com/title/tt0117333/).

@@ -11,10 +11,11 @@ tags:
   - c
   - arrays
 author: lukefilewalker
-featured: true
 categories:
   - programming
 date: 2024-03-17T04:00:00+02:00
+draft: true
+featured: true
 math: true
 showtoc: true
 summary: What are arrays and what mysteries do they hold?

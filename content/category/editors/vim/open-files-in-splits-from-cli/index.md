@@ -1,4 +1,6 @@
 ---
+id: index
+aliases: []
 tags:
   - nvim
   - vim

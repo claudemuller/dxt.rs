@@ -1,11 +1,14 @@
 ---
-title: "Inserting Command Line Results Directly Into Vim"
+id: inserting-command-line-results-directly-into-vim
+aliases: []
+tags:
+  - vim
+author: lukefilewalker
+categories:
+  - editors
 date: 2015-03-24T20:45:11+02:00
-summary: "Inserting the output of a shell command directly into your current `vim` buffer."
-author: "lukefilewalker"
-categories: ["editors"]
-tags: ["vim"]
-#comments: true
+summary: Inserting the output of a shell command directly into your current `vim` buffer.
+title: Inserting Command Line Results Directly Into Vim
 ---
 
 Sometimes you need to fetch some data or the results of a shell command and insert it into your current buffer of `vim`. You could copy and paste this from one window to another or use `tmux` to copy to the clipboard and paste into `vim`. Or... You could do it straight from `vim` - like so...

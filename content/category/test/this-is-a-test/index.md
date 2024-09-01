@@ -25,7 +25,6 @@ title: My 1st post
 
 # Introduction
 
-woof
 This is a test.
 
 ```javascript

@@ -15,7 +15,6 @@ categories:
 date: 2024-05-12T08:00:00+01:00
 draft: false
 exp_name: EXP_TypingSpeedImprovement_20240512.v1
-featured: true
 showtoc: true
 summary: An experiment to gauge the amount and speed of progress when attempting to deliberately increase one's typing speed on two different layouts.
 title: Improving One's Objective Typing Speed - an Experiment

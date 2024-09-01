@@ -1,11 +1,15 @@
 ---
-title: "Counting the Lines of Code in Your Project"
+id: counting-the-lines-of-code-in-your-project
+aliases: []
+tags:
+  - code
+  - cloc
+author: lukefilewalker
+categories:
+  - programming
 date: 2016-05-05T18:43:54+02:00
-summary: "How to count the lines of code in your coding project."
-author: "lukefilewalker"
-categories: ["programming"]
-tags: ["code", "cloc"]
-#comments: true
+summary: How to count the lines of code in your coding project.
+title: Counting the Lines of Code in Your Project
 ---
 
 This may be old news, but I recently discovered [cloc](https://github.com/AlDanial/cloc).
