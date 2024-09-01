@@ -63,7 +63,9 @@ Had we used [linear search](/programming/general/linear-search), that is, starti
 
 ## Complexity
 
-Binary Search chops the set of numbers in half with every step which enables it to execute in [logarithmic time](/category/programming/general/understanding-big-o#logarithmic-time-or-ologn) - $O(log\cdot n)$ where $n$ is the number of elements in the set/array.
+Binary Search chops the set of numbers in half with every step effectively dividing the search space in 2 parts which is why it is *base-2 logarithmic*. Base-2 logarithm refers to the number of times you divide the search space by 2 before it becomes 1 or is empty. So, if you have $n$ elements, it would take $log_2(n)$ steps to reduce the search space to 1 element, at which point, you find what you're looking for.
+
+When expressing algorithms' complexity with Big-O notation, we can drop the *base* as logarithms with different bases only differ by a constant factor - a fact that is simplified away. So we can drop the $_2$ in $log_2(n)$ to get $O(log\cdot n)$.
 
 In our example, we had 10 items in the set and $O(log\cdot n) = O(log\cdot 10) = 3.32$ confirms that it took us 3 guesses. If we had a set of 1000 values it would take us a maximum of 10 guesses.
 

@@ -260,6 +260,35 @@ We would say that this algorithm:
 # Logarithmic Time or $O(log(n))$
 
 An algorithm executes in *logarithmic time* if its run time increases slowly as the size of its input grows, as opposed to linearly (as in the case of [linear growth](#linear-time-or-on)) or rapidly (as in the case of [quadratic grow](#quadratic-time-or-on2), [cubic grow](#cubic-time-or-on3) and [exponential growth](#exponential-time-or-o2n)). This is because the growth function ([remember what that is? 😀](#polynomial-time)) is logarithmic.
+
+When expressing algorithms' complexity with Big-O notation, we can drop the *base* as logarithms with different bases only differ by a constant factor - a fact that is simplified away. So we can drop the $_2$ in $log_2(n)$ to get $O(log\cdot n)$.
+
+Logarithms are the inverse of the squaring operation. If we have 10 items, and we execute an algorithm on it that runs in quadratic time, we could express it mathematically as: 
+- $n^2 = 10^2 = 100$
+
+The inverse of this would be: 
+- $log_2(n) = log_2(100) = 10$
+
+Visually, we could think of it like this:
+
+📦 $2^0 = 1$ <br>
+
+📦📦 $2^1 = 2$
+
+📦📦📦📦 $2^2 = 4$
+
+📦📦📦📦📦📦📦📦 $2^3 = 8$
+
+And the inverse:
+
+📦📦📦📦📦📦📦📦 $log_2(8) = 3$
+
+📦📦📦📦 $log_2(4) = 2$
+
+📦📦 $log_2(2) = 1$
+
+📦 $log_2(1) = 0$
+
 ## Example
 
 A classic example of an algorithm with  *logarithmic time* is binary search. In binary search, the collection is repeatedly divided in half depending on whether the target value is greater than or less than the middle element in the current portion of the collection.
