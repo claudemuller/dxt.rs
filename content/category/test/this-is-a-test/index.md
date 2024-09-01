@@ -1,26 +1,31 @@
 ---
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
-tags: ["first"]
-categories: ["test"]
-author: "lukefilewalker"
-showToc: true
-TocOpen: false
-draft: true
-hidemeta: false
-comments: false
-description: "Desc Text."
-disableShare: false
-disableHLJS: false
-hideSummary: false
-searchHidden: true
-ShowReadingTime: true
+id: index
+aliases: []
+tags:
+  - first
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
+ShowReadingTime: true
+TocOpen: false
+author: lukefilewalker
+categories:
+  - test
+comments: false
+date: 2020-09-15T11:30:03+00:00
+description: Desc Text.
+disableHLJS: false
+disableShare: false
+draft: true
+hideSummary: false
+hidemeta: false
+searchHidden: true
+showToc: true
+title: My 1st post
 ---
 
 # Introduction
 
+woof
 This is a test.
 
 ```javascript
