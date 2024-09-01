@@ -14,11 +14,11 @@ author: lukefilewalker
 categories:
   - programming
 date: 2023-11-08T04:00:00+02:00
-draft: true
+draft: false
 featured: true
 showtoc: true
 summary: What are algorithms, why do they matter and what are some useful algorithms.
-title: Algorithms
+title: Algorithms - a Series
 ---
 ## What is an algorithm?
 
@@ -49,7 +49,7 @@ There are a few established algorithms for common programming problems such as s
 
 ### Linear/Simple Search
 
-- An article talking about [Linear Search]() with examples in: &nbsp;
+- An article talking about Linear Search with examples in: &nbsp;
 [{{< inline-img "_resources/go.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/linear-search/go)
 [{{< inline-img "_resources/c.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/linear-search/c)
 [{{< inline-img "_resources/rust.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/linear-search/rust)
@@ -57,7 +57,7 @@ There are a few established algorithms for common programming problems such as s
 
 ### Binary Search
 
-- An article talking about [Binary Search]() with examples in: &nbsp;
+- An article talking about [Binary Search](/category/programming/general/binary-search) with examples in: &nbsp;
 [{{< inline-img "_resources/go.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/binary-search/go)
 [{{< inline-img "_resources/c.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/binary-search/c)
 [{{< inline-img "_resources/rust.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/binary-search/rust)

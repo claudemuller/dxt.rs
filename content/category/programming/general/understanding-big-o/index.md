@@ -259,7 +259,7 @@ We would say that this algorithm:
 
 # Logarithmic Time or $O(log(n))$
 
-An algorithm that executes in *logarithmic time* if the its run time increases slowly as the size of its input grows, as opposed to linearly (as in the case of [linear growth](#linear-time-or-on)) or rapidly (as in the case of [quadratic grow](#quadratic-time-or-on2), [cubic grow](#cubic-time-or-on3) and [exponential growth](#exponential-time-or-o2n)). This is because the growth function ([remember what that is? 😀](#polynomial-time)) is logarithmic.
+An algorithm executes in *logarithmic time* if its run time increases slowly as the size of its input grows, as opposed to linearly (as in the case of [linear growth](#linear-time-or-on)) or rapidly (as in the case of [quadratic grow](#quadratic-time-or-on2), [cubic grow](#cubic-time-or-on3) and [exponential growth](#exponential-time-or-o2n)). This is because the growth function ([remember what that is? 😀](#polynomial-time)) is logarithmic.
 ## Example
 
 A classic example of an algorithm with  *logarithmic time* is binary search. In binary search, the collection is repeatedly divided in half depending on whether the target value is greater than or less than the middle element in the current portion of the collection.
@@ -312,7 +312,7 @@ console.log(result) // 8
 - how many operations to find element with `n` of 10? 
 	- `ops = log(10) = 3`
 - how many operations to find element with `n` of 1,000,000? 
-	- `ops = log(1,000,000) = 6`
+	- `ops = log(1,000,000) = 20`
 	
 ![logarithmic-time-graph](_resources/logarithmic-time-graph.svg)
 
