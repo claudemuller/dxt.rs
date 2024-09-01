@@ -1,7 +1,0 @@
-#!/usr/bin/env sh
-
-find $HOME/repos/notes/articles/ -maxdepth 1 -mindepth 1 -type d -exec cp -fr {} $HOME/repos/dxt.rs/content/category/ \;
-git a .
-git commit -m "Update articles"
-git pp
-
