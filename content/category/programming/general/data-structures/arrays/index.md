@@ -49,7 +49,7 @@ Indexing into an array is done in [constant time](/category/programming/general/
 
 Multi-dimension arrays are, in essence, arrays where the indexes contain arrays. This depth or dimension of this structure is limited by the amount of memory you have. In reality one rarely needs more than two dimensions. 
 
-Indexing into an array is done in [constant time](/category/programming/general/understanding-big-o/#constant-time-or-o1), while iterating through an array is done in [linear time](/category/programming/general/understanding-big-o/#linear-time-or-on).
+Indexing into the array is done in [constant time](/category/programming/general/understanding-big-o/#constant-time-or-o1), while iterating through the array is done in [linear time](/category/programming/general/understanding-big-o/#linear-time-or-on).
 
 Example of a two-dimensional array:
 
