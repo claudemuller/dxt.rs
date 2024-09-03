@@ -25,6 +25,8 @@ Simple search, also referred to as "linear search", is the most basic search alg
 
 The algorithm involves visiting each location of a collection sequentially, one at a time until you find what you're looking for.
 
+## How Does It Work?
+
 Here we have a collection of 10 items and are looking for the item with the value of 7.
 
 ![simple-search](_resources/simple-search.svg)
