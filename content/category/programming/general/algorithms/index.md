@@ -49,7 +49,7 @@ There are a few established algorithms for common programming problems such as s
 
 ### Linear/Simple Search
 
-- An article talking about [Linear Search](/category/programming/general/linear-search) with examples in: &nbsp;
+- An article talking about [Linear Search](/category/programming/general/simple-search) with examples in: &nbsp;
 [{{< inline-img "_resources/go.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/linear-search/go)
 [{{< inline-img "_resources/c.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/linear-search/c)
 [{{< inline-img "_resources/rust.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/linear-search/rust)

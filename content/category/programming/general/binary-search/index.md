@@ -23,6 +23,8 @@ showtoc: true
 summary: How does the binary search algorithm work and where can it be used.
 title: Algorithms - Binary Search
 ---
+> This article is the second in a [series of articles](/category/programming/general/algorithms/) about algorithms.
+
 Binary search is a search algorithm that continually bisects a sorted array in order to find a given value. It is also known as "binary chop", "half-interval search" and "logarithmic search".
 
 You intuitively use this algorithm when searching through a dictionary or [phonebook](https://en.wikipedia.org/wiki/Telephone_directory). If the word or person you're looking for starts with "O", you would open the book roughly in the middle instead of paging through it from the beginning.

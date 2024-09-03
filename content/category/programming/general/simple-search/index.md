@@ -21,6 +21,8 @@ showtoc: true
 summary: Setting the stage with the simple search algorithm.
 title: Algorithms - Simple Search
 ---
+> This article is the first in a [series of articles](/category/programming/general/algorithms/) about algorithms.
+
 Simple search, also referred to as "linear search", is the most basic search algorithm that can be used to locate an item within a collection.
 
 The algorithm involves visiting each location of a collection sequentially, one at a time until you find what you're looking for.
