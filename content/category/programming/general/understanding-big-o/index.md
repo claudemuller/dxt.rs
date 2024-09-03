@@ -36,7 +36,7 @@ With a bit of programming knowledge and experience, anyone could solve any probl
 
 "In both time and space" makes it sound like I'm writing a religious text or a comic book, but what this refers to, given a set of inputs, is how the algorithm under observation performs and scales with regard to:
 - its running time i.e. how many operations will it need to complete; and
-- how much RAM/memory the solution consumes during its lifetime with different inputs.
+- how much RAM/memory the solution consumes during its lifetime in addition to the input data.
 
 Big-O is always in terms of the worst-case scenario. So even if we have a list and need to iterate through it to find an item and the item we're looking for is the first one, we would still think of its complexity in terms of the worst possible outcome.
 
