@@ -39,7 +39,7 @@ Indexing into an array is done in [constant time](/category/programming/general/
 
 - because the data is stored in contiguous memory, arrays can not be resized and need to be declared with a size up front
 - certain programming languages make it appear that an array is being resized, but usually a larger copy is made elsewhere in memory which comes at a cost
-- insertion happens in $O(n)$
+- insertions and deletions happens in $O(n)$
 
 ### Usage Examples
 
