@@ -35,7 +35,7 @@ Example of a singly linked list:
 
 - nodes are not constrained to sequential memory, therefore, linked lists can grow and shrink
 - can traverse forwards and backwards if using a doubly linked list
-- efficient insertions and deletions at the beginning or middle of the list as there is no need to shift elements
+- efficient insertions ($O(1)$) and deletions at the beginning or middle of the list as there is no need to shift elements
 - linked lists use memory efficiently in the sense that they only allocate space for the number of elements required
 
 ## Disadvantages
@@ -43,7 +43,7 @@ Example of a singly linked list:
 - can only traverse forwards
 - bigger than arrays in memory i.e. increased space complexity, as they need to maintain references to the next node
 - accessing nodes is slower than arrays because of the nodes are not sequentially stored i.e. lack of memory locality
-- retrieval always $O(n)$ there is no $O(1)$ as there is no direct/random access ability as with arrays
+- retrieval always $O(n)$, there is no $O(1)$ as there is no direct/random access ability as with arrays
 
 ## Usage Examples
 
