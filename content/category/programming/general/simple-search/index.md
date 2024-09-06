@@ -14,7 +14,6 @@ tags:
 author: lukefilewalker
 categories:
   - programming
-  - algorithms
 date: 2024-09-02T12:00:00+02:00
 featured: true
 math: true
