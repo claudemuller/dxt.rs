@@ -25,7 +25,7 @@ title: Algorithms - Selection Sort
 ---
 > This article is the third in a [series of articles](/category/programming/general/algorithms/) about algorithms.
 
-Selection sort involves sorting a collection of values by iterating through the collection, picking out the highest value at each iteration and appending that to a new collection.
+Selection sort involves sorting a collection of values by iterating through the collection, picking out the highest value at each iteration and swapping it with item at the start of the current iteration.
 
 ## How Does It Work?
 
@@ -35,43 +35,37 @@ Here we have a collection of 10 items, and we would like to sort them from small
 
 ### Step 1
 
-We create an empty array of the same size as the original array.
+We run through the entire array, keeping track of the smallest element and its location. When we reach the end of the array, we swap the smallest value with the value that we started the iteration with. In this case, we started at index 0 with 8 and will swap it with 1 at index 8.
 
 ![selection-sort-step1](_resources/selection-sort-1.svg)
 
 ### Step 2
 
-Then we run through the entire array, keeping track of the smallest element and its location. When we reach the end of the array, we delete the smallest value from the original array and append it to the new one. In this case it is 1 at index 8.
+We repeat the same steps, iterating from index 1 as we know that index 0 is already sorted. Thus, this iteration we started at index 1 with 3 and will swap it with 2 at index 5.
 
 ![selection-sort-step2](_resources/selection-sort-2.svg)
 
 ### Step 3
 
-We repeat the previous step and move 2 from index 5.
+We repeat the same steps, swapping 7 at index 2 with 3 at index 5.
 
 ![selection-sort-step3](_resources/selection-sort-3.svg)
 
 ### Step 4
 
-We repeat the previous step and move 3 from index 1.
+We repeat the same steps but find that 4 and our start index of 3 is already the smallest integer, so we do nothing.
 
 ![selection-sort-step4](_resources/selection-sort-4.svg)
 
 ### Step 5, 6, 7, 8, 9, 10
 
-We repeat the previous steps until we have all but the last item moved.
+We repeat the previous steps until we have sorted all the items.
 
 ![selection-sort-step5](_resources/selection-sort-5.svg)
 
-### Step 11
-
-The final value of 10, located at position 0, is moved and we have a sorted array!
-
-![selection-sort-step11](_resources/selection-sort-6.svg)
-
 ## Complexity
 
-This algorithm runs in [quadratic-time](articles/programming/general/understanding-big-o/_resources/quadratic-time.md) because you have to check every element in the collection, sans the element found on the previous iteration, with every iteration.
+This algorithm runs in [quadratic-time](articles/programming/general/understanding-big-o/_resources/quadratic-time.md) because you have to check every element in the collection, sans the elements found on the previous iterations, with every iteration.
 
 Technically, would be $O(n\cdot \frac{1}{2}\cdot n)$, where $n$ represents the number of elements in the collection, but because constant values are dropped in Big O notation, it is simply $O(n^2)$.
 
@@ -81,7 +75,7 @@ Technically, would be $O(n\cdot \frac{1}{2}\cdot n)$, where $n$ represents the n
 
 ### Space
 
-Space complexity refers to amount of memory needed for the algorithm in addition to the input data.
+Space complexity refers to amount of memory needed for the algorithm in addition to the input data and because the array is sorted in-place, no additional space is needed.
 
 - $O(1)$ ([constant time](/category/programming/general/understanding-big-o#constant-time-or-o1))
 
@@ -89,19 +83,19 @@ Space complexity refers to amount of memory needed for the algorithm in addition
 
 - simple implementation
 - good enough on small datasets
-- data doesn't need to be sorted
-- doesn't require more space beyond its input
+- if writing memory is costly, selection sort is advantageous as it performs fewer swaps than other simple sorting algorithms
+- sorting in-place means that it doesn't require more space beyond its input
 
 ## Disadvantages
 
-- inefficiency grows as the input data grows
-- not the most optimal solution for sorted data
-- not the most optimal solution for repeated searches
+- inefficiency grows quadratically as the input data grows
+- not stable i.e. does not preserve the relative order of equal elements
+- not adaptive i.e. the number of comparisons doesn't decrease if parts of the collection are already sorted
 - not the most optimal solution for data structures with special properties such as trees or hash tables
 
 ## Code Examples
 
-[{{< inline-img "/go.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/linear-search/go)
-[{{< inline-img "/c.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/linear-search/c)
-[{{< inline-img "/rust.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/linear-search/rust)
-[{{< inline-img "/js.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/search-algorithms/linear-search/js)
+[{{< inline-img "/go.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/sorting-algorithms/selection-sort/go)
+[{{< inline-img "/c.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/sorting-algorithms/selection-sort/c)
+[{{< inline-img "/rust.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/sorting-algorithms/selection-sort/rust)
+[{{< inline-img "/js.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/sorting-algorithms/selection-sort/js)
