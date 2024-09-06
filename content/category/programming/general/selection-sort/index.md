@@ -16,7 +16,6 @@ author: lukefilewalker
 categories:
   - programming
 date: 2024-09-05T16:00:00+02:00
-draft: true
 featured: true
 math: true
 showtoc: true
