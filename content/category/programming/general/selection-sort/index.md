@@ -15,6 +15,7 @@ tags:
 author: lukefilewalker
 categories:
   - programming
+  - algorithms
 date: 2024-09-05T16:00:00+02:00
 draft: true
 featured: true

@@ -14,6 +14,7 @@ tags:
 author: lukefilewalker
 categories:
   - programming
+  - data-structures
 date: 2024-03-21T04:00:00+02:00
 featured: true
 math: true
