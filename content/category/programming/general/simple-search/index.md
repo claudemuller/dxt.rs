@@ -31,13 +31,13 @@ The algorithm involves visiting each location of a collection sequentially, one 
 
 Here we have a collection of 10 items and are looking for the item with the value of 7.
 
-![simple-search](simple-search.svg)
+![simple-search](_resources/simple-search.svg)
 
 ### Step 1
 
 We visit the first location and check for the value.
 
-![simple-search](simple-search-1.svg)
+![simple-search](_resources/simple-search-1.svg)
 
 This is not the value we are looking for - we continue.
 

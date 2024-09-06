@@ -11,7 +11,6 @@ categories:
   - productivity
 date: 2024-03-30T09:00:00+01:00
 draft: false
-featured: true
 showtoc: false
 summary: An evolving strategy for absorbing and using knowledge.
 title: A Note Taking Strategy
