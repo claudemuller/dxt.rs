@@ -106,6 +106,8 @@ menu:
       url: https://claudemuller.io
       weight: 40
 markup:
+  highlight:
+    lineNos: true
   goldmark:
     extensions:
       passthrough:
