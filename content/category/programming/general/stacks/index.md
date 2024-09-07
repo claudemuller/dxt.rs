@@ -78,5 +78,5 @@ There is usually also a `peek()` function that allows you to see what is at the 
 
 ## Code Examples
 
-[{{<inline-img "_resources/go.svg">}}](https://github.com/claudemuller/data-structures/tree/master/stacks/go)
-[{{<inline-img "_resources/js.svg">}}](https://github.com/claudemuller/data-structures/tree/master/stacks/js)
+[{{<inline-img "/go.svg">}}](https://github.com/claudemuller/data-structures/tree/master/stacks/go)
+[{{<inline-img "/js.svg">}}](https://github.com/claudemuller/data-structures/tree/master/stacks/js)
