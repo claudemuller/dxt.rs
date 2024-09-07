@@ -11,10 +11,10 @@ tags:
   - c
   - data-structures
 author: lukefilewalker
-featured: true
 categories:
   - programming
 date: 2024-03-15T04:00:00+02:00
+featured: true
 summary: What are data structures, what are their differences and what do we use them for.
 title: Data Structures - a Series
 ---
@@ -29,6 +29,7 @@ A data structure is a method for storing, managing and organising data in a comp
   - [Singly Linked Lists](/category/programming/general/linked-lists#singly-linked-lists)
   - [Doubly Linked Lists](/category/programming/general/linked-lists#doubly-linked-lists)
   - [Circular Linked Lists](/category/programming/general/linked-lists#circular-linked-lists)
+- [Stacks](/category/programming/general/stacks)
 - Trees
   - Binary Trees (B-trees)
   - Binary Search Trees

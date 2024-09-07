@@ -69,7 +69,5 @@ There are a few established algorithms for common programming problems such as s
 
 - An article talking about [Selection Sort](/category/programming/general/selection-sort) with examples in: &nbsp;
 [{{< inline-img "_resources/go.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/sorting-algorithms/selection-sort/go)
-[{{< inline-img "_resources/c.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/sorting-algorithms/selection-sort/c)
-[{{< inline-img "_resources/rust.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/sorting-algorithms/selection-sort/rust)
 [{{< inline-img "_resources/js.svg" >}}](https://github.com/claudemuller/algorithms/tree/master/sorting-algorithms/selection-sort/js)
 
