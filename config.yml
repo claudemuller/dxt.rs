@@ -108,6 +108,7 @@ menu:
 markup:
   highlight:
     lineNos: true
+    style: tokyonight-night
   goldmark:
     extensions:
       passthrough:
