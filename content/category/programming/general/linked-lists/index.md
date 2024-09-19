@@ -76,7 +76,7 @@ Example of a doubly linked list:
 
 # Circular Linked Lists
 
-Circular linked lists are the same as doubly linked lists except that they pointer to the previous node in the first nodes points to last node and the pointer in the last node points to the first node creating a list with no end.
+Circular linked lists are the same as single linked lists except that the tail/list node points to the head/first node creating a list with no end. The term "circularly linked" is used to describe such a linked list while "open" or "linear" is used to describe the previous two variants discussed.
 
 Example of a circular linked list:
 

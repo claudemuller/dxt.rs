@@ -82,6 +82,9 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+taxonomies:
+  category: "categories"
+  subcategory: "subcategories"
 outputs:
   home:
     - HTML

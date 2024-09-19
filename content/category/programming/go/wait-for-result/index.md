@@ -6,13 +6,15 @@ tags:
   - concurrency
   - channels
   - goroutines
-  - waitforresult
+  - wait-for-result
 author: lukefilewalker
 categories:
   - programming
-  - go
-date: 2024-03-26T08:00:00+01:00
+date: 2024-09-07T11:30:00+02:00
 draft: true
+featured: true
+math: true
+showtoc: false
 summary: waitForResult
 title: Concurrency Patterns in Go - waitForResult
 ---
