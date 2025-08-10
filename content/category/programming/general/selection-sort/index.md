@@ -30,47 +30,47 @@ Selection sort involves sorting a collection of values by iterating through the 
 
 Here we have a collection of 10 items, and we would like to sort them from smallest to largest.
 
-![selection-sort](_resources/selection-sort.svg)
+![selection-sort](selection-sort.svg)
 
 ### Step 1
 
 We run through the entire array, keeping track of the smallest element and its location. When we reach the end of the array, we swap the smallest value with the value that we started the iteration with. In this case, we started at index 0 with 8 and will swap it with 1 at index 8.
 
-![selection-sort-step1](_resources/selection-sort-1.svg)
+![selection-sort-step1](selection-sort-1.svg)
 
 ### Step 2
 
 We repeat the same steps, iterating from index 1 as we know that index 0 is already sorted. Thus, this iteration we started at index 1 with 3 and will swap it with 2 at index 5.
 
-![selection-sort-step2](_resources/selection-sort-2.svg)
+![selection-sort-step2](selection-sort-2.svg)
 
 ### Step 3
 
 We repeat the same steps, swapping 7 at index 2 with 3 at index 5.
 
-![selection-sort-step3](_resources/selection-sort-3.svg)
+![selection-sort-step3](selection-sort-3.svg)
 
 ### Step 4
 
 We repeat the same steps but find that 4 and our start index of 3 is already the smallest integer, so we do nothing.
 
-![selection-sort-step4](_resources/selection-sort-4.svg)
+![selection-sort-step4](selection-sort-4.svg)
 
 ### Step 5, 6, 7, 8, 9, 10
 
 We repeat the previous steps until we have sorted all the items.
 
-![selection-sort-step5](_resources/selection-sort-5.svg)
+![selection-sort-step5](selection-sort-5.svg)
 
 ## Complexity
 
-This algorithm runs in [quadratic-time](articles/programming/general/understanding-big-o/_resources/quadratic-time.md) because you have to check every element in the collection, sans the elements found on the previous iterations, with every iteration.
+This algorithm runs in [quadratic-time](quadratic-time.md) because you have to check every element in the collection, sans the elements found on the previous iterations, with every iteration.
 
 Technically, would be $O(n\cdot \frac{1}{2}\cdot n)$, where $n$ represents the number of elements in the collection, but because constant values are dropped in Big O notation, it is simply $O(n^2)$.
 
 ### Time
 
-- worse-case time complexity - $O(n^2)$ ([quadratic-time](articles/programming/general/understanding-big-o/_resources/quadratic-time.md))
+- worse-case time complexity - $O(n^2)$ ([quadratic-time](quadratic-time.md))
 
 ### Space
 

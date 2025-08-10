@@ -50,7 +50,7 @@ An algorithmic complexity of $O(1)$, or *constant time*, is used to describe an 
 
 If you have an array and know the position of the element you want to access, say the third element, you would simply access it using array index notation (remembering that arrays in JavaScript start at index **0**). Here, we index into the 3rd position.
 
-![constant-time](_resources/constant-time.svg)
+![constant-time](constant-time.svg)
 
 ### Some JavaScript Code
 
@@ -79,7 +79,7 @@ We would say that this algorithm:
 - is $O(1)$; or more informally;
 - takes/executes/operates in *constant time*
 
-![constant-time-graph](_resources/constant-time-graph.svg)
+![constant-time-graph](constant-time-graph.svg)
 
 ## Examples of $O(1)$
 
@@ -106,7 +106,7 @@ Traditionally, we would use `n` to represent the size of the input. If we had a 
 
 If you have a 10 item array as before, you would have to iterate over 8 items if the result you are after is at the 8th index.
 
-![linear-time](_resources/linear-time.svg)
+![linear-time](linear-time.svg)
 
 #### Some JavaScript Code
 
@@ -135,7 +135,7 @@ We would say that this algorithm:
 - is $O(n)$; or more informally;
 - operates in *linear time*
 
-![linear-time-graph](_resources/linear-time-graph.svg)
+![linear-time-graph](linear-time-graph.svg)
 
 ### Examples of $O(n)$
 
@@ -151,7 +151,7 @@ We would say that this algorithm:
 
 If we need to do a nested traversal on the same collection, such as when attempting to find duplicates, we would not only need to loop over every element of the array, but also over every element a second time for every element during the first loop. Because we need to loop over the array twice in a nested fashion, we would multiply the size of the array during the first traversal, `n`, by the size of the array during the second traversal to calculate the running time. This will give us $n*n$ or simply $n^2$.
 
-![quadratic-time](_resources/quadratic-time.svg)
+![quadratic-time](quadratic-time.svg)
 
 #### Some JavaScript Code
 
@@ -184,7 +184,7 @@ console.log(result) // true
 - how many operations to find element with `n` of 1,000? 
 	- `ops = 1,000*1,000 = 1,000,000`
 
-![quadratic-time-graph](_resources/quadratic-time-graph.svg)
+![quadratic-time-graph](quadratic-time-graph.svg)
 
 ### The Lingo
 
@@ -206,7 +206,7 @@ We would say that this algorithm:
 
 A somewhat contrived example could be to find all the possible combinations of values across 3 lists of integers that sum to a particular number.
 
-![cubic-time](_resources/cubic-time.svg)
+![cubic-time](cubic-time.svg)
 
 #### Some JavaScript Code
 
@@ -243,7 +243,7 @@ console.log(result) // [ [ 2, 8, 6 ], [ 3, 7, 6 ], [ 3, 8, 5 ], [ 4, 6, 6 ], [ 4
 - how many operations to find element with `n` of 1,000? 
 	- `ops = 1,000*1,000*1,000 = 1,000,000,000`
 
-![cubic-time-graph](_resources/cubic-time-graph.svg)
+![cubic-time-graph](cubic-time-graph.svg)
 
 ### The Lingo
 
@@ -261,7 +261,7 @@ We would say that this algorithm:
 
 An algorithm executes in *logarithmic time* if its run time increases slowly as the size of its input grows, as opposed to linearly (as in the case of [linear growth](#linear-time-or-on)) or rapidly (as in the case of [quadratic grow](#quadratic-time-or-on2), [cubic grow](#cubic-time-or-on3) and [exponential growth](#exponential-time-or-o2n)). This is because the growth function ([remember what that is? 😀](#polynomial-time)) is logarithmic.
 
-When expressing algorithms' complexity with Big-O notation, we can drop the *base* as logarithms with different bases only differ by a constant factor - a fact that is simplified away. So we can drop the $_2$ in $log_2(n)$ to get $O(log\cdot n)$.
+When expressing algorithms' complexity with Big-O notation, we can drop the *base* as logarithms with different bases only differ by a constant factor - a fact that is simplified away. So we can drop the $_2$ in $log_2(n)$ (otherwise called the binary logarithm) to get $O(log\cdot n)$.
 
 Logarithms are the inverse of the squaring operation. If we have 10 items, and we execute an algorithm on it that runs in quadratic time, we could express it mathematically as: 
 - $n^2 = 10^2 = 100$
@@ -295,7 +295,7 @@ A classic example of an algorithm with  *logarithmic time* is binary search. In 
 
 In the following diagram we have an array of 10 elements. On the first iteration we compare the middle value, 5, with the target value, 9. The target is greater than the mid point so we split the array and repeat the compare operation on the upper half. Here, the middle value, 8, is less than the target value so we split the array again. The final sub-array has no mid point, but the algorithm consider this and find the target value of 9.
 
-![logarithmic-time](_resources/logarithmic-time.svg)
+![logarithmic-time](logarithmic-time.svg)
 
 ### Some JavaScript Code
 
@@ -343,7 +343,7 @@ console.log(result) // 8
 - how many operations to find element with `n` of 1,000,000? 
 	- `ops = log(1,000,000) = 20`
 	
-![logarithmic-time-graph](_resources/logarithmic-time-graph.svg)
+![logarithmic-time-graph](logarithmic-time-graph.svg)
 
 ### The Lingo
 
@@ -373,4 +373,4 @@ We would say that this algorithm:
 
 This chart shows the relationship between the number of operations of an algorithm and the size of its inputs. We want to be as close to *constant time* or $O(1)$  as we can get i.e. fewer operations as the size of the input grows.
 
-![comparing-complexity](_resources/comparing-complexity.svg)
+![comparing-complexity](comparing-complexity.svg)

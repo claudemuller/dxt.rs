@@ -29,7 +29,7 @@ I block out my calendar for most of the events and tasks that I want to get done
 
 Following is an example of a typical daily schedule:
 
-![day-planner-example](_resources/day-planner-example.png)
+![day-planner-example](day-planner-example.png)
 
 # Dealing with Low Motivation or Boring Work
 

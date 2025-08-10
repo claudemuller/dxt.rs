@@ -29,7 +29,7 @@ Linked lists are data structures that store data in nodes that are linked togeth
 
 Example of a singly linked list:
 
-![singly-linked-list](_resources/singly-linked-list.svg)
+![singly-linked-list](singly-linked-list.svg)
 
 ## Advantages
 
@@ -55,7 +55,7 @@ Doubly linked lists are the same as singly linked lists except that nodes contai
 
 Example of a doubly linked list:
 
-![doubly-linked-list](_resources/doubly-linked-list.svg)
+![doubly-linked-list](08%20articles/programming/general/linked-lists/_resources/doubly-linked-list.svg)
 
 ## Advantages
 
@@ -80,7 +80,7 @@ Circular linked lists are the same as single linked lists except that the tail/l
 
 Example of a circular linked list:
 
-![circular-linked-list](_resources/circular-linked-list.svg)
+![circular-linked-list](circular-linked-list.svg)
 
 ## Advantages
 

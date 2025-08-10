@@ -28,7 +28,7 @@ In this post, however, I will discuss how I used [Neovim](https://neovim.io/) an
 
 ## Demo
 
-![Demo](./open-referenc-material.gif "A demo of how to open reference material in a floating window in nvim")
+![Demo](open-referenc-material.gif "A demo of how to open reference material in a floating window in nvim")
 
 ## [The Code](https://lkml.org/lkml/2000/8/25/132)
 

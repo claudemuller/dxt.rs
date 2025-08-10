@@ -31,13 +31,13 @@ The algorithm involves visiting each location of a collection sequentially, one 
 
 Here we have a collection of 10 items and are looking for the item with the value of 7.
 
-![simple-search](_resources/simple-search.svg)
+![simple-search](simple-search.svg)
 
 ### Step 1
 
 We visit the first location and check for the value.
 
-![simple-search](_resources/simple-search-1.svg)
+![simple-search](simple-search-1.svg)
 
 This is not the value we are looking for - we continue.
 
@@ -45,7 +45,7 @@ This is not the value we are looking for - we continue.
 
 We visit the second location and check for the value.
 
-![simple-search](_resources/simple-search-2.svg)
+![simple-search](simple-search-2.svg)
 
 This is not the value we are looking for - we continue.
 
@@ -53,7 +53,7 @@ This is not the value we are looking for - we continue.
 
 We visit the third, fourth, fifth and sixth locations and check for the value.
 
-![simple-search](_resources/simple-search-3.svg)
+![simple-search](simple-search-3.svg)
 
 These are not the values we are looking for - we continue.
 
@@ -61,7 +61,7 @@ These are not the values we are looking for - we continue.
 
 Success! We have located 7.
 
-![simple-search-step7](_resources/simple-search-7.svg)
+![simple-search-step7](simple-search-7.svg)
 
 ## Complexity
 

@@ -35,13 +35,13 @@ We could explain this algorithm practically using the "I'm thinking of a number 
 
 Player one thinks of a number (7) between two other numbers - say, 1 and 10 - and player two attempts to guess (or, in our case compute with an algorithm) the answer.
 
-![binary-search](_resources/binary-search-1.svg)
+![binary-search](binary-search-1.svg)
 
 ### Step 1
 
 We suggest the number at the *midpoint* of the number range - that is, 5. By doing this we are *bisecting* the group/set of potential numbers.
 
-![binary-search-step2](_resources/binary-search-2.svg)
+![binary-search-step2](binary-search-2.svg)
 
 Player one informs us that our guess is *too low* - we continue.
 
@@ -49,7 +49,7 @@ Player one informs us that our guess is *too low* - we continue.
 
 Because our guess is too low, we *discard* the lower half of the set of numbers - that is, 1 through 5 - as we can be sure that the number we're looking for isn't present in this group. We suggest the number at the midpoint of the new group - 8.
 
-![binary-search-step3](_resources/binary-search-3.svg)
+![binary-search-step3](binary-search-3.svg)
 
 Player one informs us that our guess is *too high* - we continue.
 
@@ -57,7 +57,7 @@ Player one informs us that our guess is *too high* - we continue.
 
 Because our guess is too high, we *discard* the upper half of the remaining group of numbers - that is, 8 through 10 - and, using bisection method, suggest 7.
 
-![binary-search-step4](_resources/binary-search-4.svg)
+![binary-search-step4](binary-search-4.svg)
 
 Player one cowers at our algorithmic powers and admits defeat!
 

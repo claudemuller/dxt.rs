@@ -28,7 +28,7 @@ A _bitmask_ is a mask (think of a [multiple choice grading key](https://sockmonk
 
 A _bitfield_ is a collection of values that each represent one of two states, or, using a more familiar metaphor -  a row of household switches on a wall, each representing whether the lights are on or off in different rooms or areas around the house. We will use the following image as a tangible example.
 
-![switches](_resources/switches.png)
+![switches](08%20articles/programming/general/what-are-bitmasks/_resources/switches.png)
 
 ### Bits and Bytes
 
