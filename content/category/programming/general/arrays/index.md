@@ -28,7 +28,7 @@ Indexing into an array is done in [constant time](/category/programming/general/
 
 ## One Dimensional Arrays
 
-![1-dim-array](1-dim-array.svg)
+![1-dim-array](./_resources/1-dim-array.svg)
 
 ### Advantages
 
@@ -54,11 +54,11 @@ Indexing into the array is done in [constant time](/category/programming/general
 
 Example of a two-dimensional array:
 
-![2-dim-array](2-dim-array.svg)
+![2-dim-array](./_resources/2-dim-array.svg)
 
 Example of a three-dimensional array:
 
-![3-dim-array](3-dim-array.svg)
+![3-dim-array](./_resources/3-dim-array.svg)
 
 ### Advantages
 

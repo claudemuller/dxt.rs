@@ -33,15 +33,15 @@ We can use the analogy of washing dishes.
 
 The first dish comes into the kitchen and is placed on the counter. This is referred to *pushing* an item onto the stack and is executed when the `push()` function is called.
 
-![stacks1](stacks1.svg)
+![stacks1](./_resources/stacks1.svg)
 
 The second dish comes in and is placed onto the first dish:
 
-![stacks2](stacks2.svg)
+![stacks2](./_resources/stacks2.svg)
 
 And so on, and so on, and so on...
 
-![stacks3](stacks3.svg)
+![stacks3](./_resources/stacks3.svg)
 
 ### Removing From the Stack
 
@@ -49,7 +49,7 @@ Because the dishes are piled onto one another, you can't access any of the dishe
 
 Stated differently, the *last* item to be added to the stack, here, the number 6, is the *first* to leave.
 
-![stacks4](stacks4.svg)
+![stacks4](./_resources/stacks4.svg)
 
 ### Peek-a-Boo
 
