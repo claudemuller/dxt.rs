@@ -50,7 +50,38 @@ go build main.go [-o <name>]
 
 ## Variables
 
-Go is a strictly type language. 
+Go is a strictly type language. It has the following types:
+
+| Name | Type | Size | Notes | Example |
+|---|---|---|---|---|
+| `bool` | builtin type | 1B | | `true` |
+| `byte` | builtin type | 1B | Alias for `uint8` | `A` |
+| `int` | builtin type | 8B (on 64bit) | Depends on system architecture's word size | `6` |
+| `int8` | builtin type | 1B | -128 to 127 | `-13` |
+| `int16` | builtin type | 2B | -32 768 to 32 767 | `883` |
+| `int32` | builtin type | 4B | -2 147 483 648 to 2 147 483 647 | `-98734` |
+| `int64` | builtin type | 8B | -9 223 372 036 854 775 808 to 9 223 372 036 854 775 807 | `-8739874616366` |
+| `uint` | builtin type | 8B (on 64bit) | Depends on system architecture's word size | `6` |
+| `uint8` | builtin type | 1B | 0 to 255 | `6` |
+| `uint16` | builtin type | 2B | 0 to 65 535 | `603` |
+| `uint32` | builtin type | 4B | 0 to 4 294 967 295 | `873642` |
+| `uint64` | builtin type | 8B | 0 to 18 446 744 073 709 551 615 | `8739874616366` |
+| `float32` | builtin type | 4B | $~-3.4028235 × 10^{38}$ to $~3.4028235 × 10^{38}$ | `6.53` |
+| `float64` | builtin type | 8B | $~-1.7976931348623157 × 10^{32}$ to $~1.7976931348623157 × 10^{30}$ | `6.718281828459045` |
+| `uintptr` | builtin type | 8B (on 64bit) | Depends on system architecture's word size | `uintptr(0xdeadbeef)` |
+| `rune` | builtin type | 4B | Alias for `int32`; unicode?? | `c` |
+| `complex64` | builtin type | 8B | | `complex64(1 + 2i)` |
+| `complex128` | builtin type | 16B | | `complex64(3 + 4i)` |
+| `string` | builtin type | 16B + len(data) | | `"hello"` |
+| `struct{}` | builtin type | 0B | | `chan struct{}` |
+| `array` | reference type | elementSize * arrayLength | | `[3]{0, 1, 2}` |
+| `slice` | reference type | 24B + len(cap) * elementSize | | `[]int{0, 1, 2}` |
+| `map` | reference type | ~8B + overhead per bucket | | `map[int]int{ 1: 66, 2: 22}` |
+| `channel` | reference type | 8B + runtime overhead | | `make(chan string)` |
+| `function` | reference type | 8B + runtime closure data | | `func do(a string) error {}` |
+| `interface{}` | reference type | 16B (type word + data word) | | `var i interface{} = 83` |
+| `pointer` | reference type | 8B | | `var p *int = &i` |
+| `struct` | user-defined type | sum of field sizes + padding | | `Person{ name: "Joe" }` |
 
 There are a few ways to create and initialise variables.
 
@@ -70,6 +101,13 @@ Or with the so-called "short variable declaration operator".
 
 ```go
 name := "piet"
+```
+
+You can initialise more than one variable at a time.
+
+```go
+var a, b = 1, 2
+c, d := 3, 4
 ```
 
 ## Constants
