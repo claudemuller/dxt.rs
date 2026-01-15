@@ -15,7 +15,7 @@ categories:
   - cli
 date: 2026-01-03T00:00:00+02:00
 summary: For when you need to gateway/jump host to reach a network like the internet or need a secure tunnel in doing so.
-title: Browsing the web through an SSH tunne
+title: Browsing the web through an SSH tunnel
 ---
 
 Using an SSH tunnel allows one to establish a secure route from your machine to a remote machine and pipe your traffic to it as if you are at said machine. 
