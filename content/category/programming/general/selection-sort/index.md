@@ -2,19 +2,19 @@
 id: index
 aliases: []
 tags:
-  - complexity
-  - big-o
-  - go
-  - rust
-  - javascript
-  - typescript
-  - c
-  - arrays
-  - lists
-  - sort
+    - complexity
+    - big-o
+    - go
+    - rust
+    - javascript
+    - typescript
+    - c
+    - arrays
+    - lists
+    - sort
 author: lukefilewalker
 categories:
-  - programming
+    - programming
 date: 2024-09-05T16:00:00+02:00
 featured: true
 math: true
@@ -22,6 +22,7 @@ showtoc: true
 summary: Explaining how selection sort works
 title: Algorithms - Selection Sort
 ---
+
 > This article is the third in a [series of articles](/category/programming/general/algorithms/) about algorithms.
 
 Selection sort involves sorting a collection of values by iterating through the collection, picking out the highest value at each iteration and swapping it with item at the start of the current iteration.
@@ -66,7 +67,7 @@ We repeat the previous steps until we have sorted all the items.
 
 This algorithm runs in [quadratic-time](quadratic-time.md) because you have to check every element in the collection, sans the elements found on the previous iterations, with every iteration.
 
-Technically, would be $O(n\cdot \frac{1}{2}\cdot n)$, where $n$ represents the number of elements in the collection, but because constant values are dropped in Big O notation, it is simply $O(n^2)$.
+Technically, it would be $O(n\cdot \frac{1}{2}\cdot n)$, where $n$ represents the number of elements in the collection, but because constant values are dropped in Big O notation, it is simply $O(n^2)$.
 
 ### Time
 

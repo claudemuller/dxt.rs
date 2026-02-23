@@ -2,27 +2,28 @@
 id: index
 aliases: []
 tags:
-  - code
-  - go
-  - strings
-  - pkg
-  - programming
-  - standard-lib
+    - code
+    - go
+    - strings
+    - pkg
+    - programming
+    - standard-lib
 author: lukefilewalker
 categories:
-  - programming
-  - go
+    - programming
+    - go
 date: 2025-08-09T08:36:00+02:00
 draft: false
 showtoc: true
 summary: The strings package from the standard library provides a handful of useful utilities to deal with UTF-8 encoded strings
 title: The Strings Package
 ---
+
 The strings package is a standard library package provided by the Go development team and offers a handful of useful utilities to deal with UTF-8 encoded strings. It can be found at [https://pkg.go.dev/strings](https://pkg.go.dev/strings).
 
 # [`Clone(s string) string`](https://pkg.go.dev/strings#Clone)
 
-`Clone` makes a copy of `s` by allocating a new block of memory and copying the original data over. 
+`Clone` makes a copy of `s` by allocating a new block of memory and copying the original data over.
 
 A common mistake is to simply do:
 
@@ -35,7 +36,7 @@ But, because `s` is a 2-byte header variable with the first word pointing to the
 
 ```go
 s := "my string"
-// s's header variabl looks like
+// s's header variable looks like
 //  ---------------------------------------------------------
 // | 0x00001 | address to the beginning of the backing array |
 //  --------|------------------------------------------------
@@ -43,7 +44,7 @@ s := "my string"
 //  --------------------------------------------------------
 
 s := ss[3:]
-// ss's header variabl looks like
+// ss's header variable looks like
 //  ---------------------------------------------------------
 // | 0x00004 | address to the beginning of the backing array |
 //  --------|------------------------------------------------
@@ -112,6 +113,7 @@ The cloned string 'sclone' ('Hello there') starts at memory address: 0x4b67ea
 # [`Compare(a, b string) int`](https://pkg.go.dev/strings#Compare)
 
 `Compare` compares two strings lexicographically and returns:
+
 - `0` if `a == b`
 - `-1` if `a < b`
 - `1` if `a > b`
@@ -236,4 +238,3 @@ Contact, 6 o`clock
 ```
 
 [Run code in the Go Playground](https://go.dev/play/p/PsIvBB9Imf7)
-
