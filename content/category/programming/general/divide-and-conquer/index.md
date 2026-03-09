@@ -29,19 +29,19 @@ Divide and Conquer (D&C) is a well-known recursive technique for building algori
 
 Let's divide a rectangle into the largest, equal squares possible.
 
-![[./_resources/problem.svg]]
+![problem](./_resources/problem.svg)
 
 - the boxes are not _square_
 
-![[./_resources/wrong-solution-1.svg]]
+![wrong-solution-1](./_resources/wrong-solution-1.svg)
 
 - the boxes are not _equally sized_
 
-![[./_resources/wrong-solution-2.svg]]
+![wrong-solution-2](./_resources/wrong-solution-2.svg)
 
 - the boxes are not the _largest_ they can be
 
-![[./_resources/wrong-solution-3.svg]]
+![wrong-solution-3](./_resources/wrong-solution-3.svg)
 
 ### Enter D&C
 
@@ -61,7 +61,7 @@ In order for the square to be of a size that would fit in the larger rectangle c
 - Are one of the sides (240x240) of the remaining space a multiple of the one of the largest rectangle's sides? No
 - Continue
 
-![[./_resources/step-2.svg]]
+![step-2](./_resources/step-2.svg)
 
 #### Step 3
 
@@ -70,7 +70,7 @@ In order for the square to be of a size that would fit in the larger rectangle c
 - Are one of the sides (160x160) of the remaining space a multiple of the one of the largest rectangle's sides? No
 - Continue
 
-![[./_resources/step-3.svg]]
+![step-3](./_resources/step-3.svg)
 
 #### Step 4
 
@@ -79,7 +79,7 @@ In order for the square to be of a size that would fit in the larger rectangle c
 - Are one of the sides (160x80) of the remaining space a multiple of the one of the largest rectangle's sides? No
 - Continue
 
-![[./_resources/step-4.svg]]
+![step-4](./_resources/step-4.svg)
 
 #### Step 5
 
@@ -88,7 +88,7 @@ In order for the square to be of a size that would fit in the larger rectangle c
 - Are one of the sides (160x80) of the remaining space a multiple of the one of the largest rectangle's sides? Yes!
 - The largest square that we can use to totally cover a rectangle of 400x240 is one of 80x80
 
-![[./_resources/solution.svg]]
+![step-5](./_resources/solution.svg)
 
 ## A Code Example
 
@@ -118,7 +118,7 @@ Identify the base case. Seeing as how we're working with an array, what is the s
 
 Identify/create the recursive case. We need to progressively reduce the problem set. One way to do that would be as follows:
 
-![[./_resources/sum.svg]]
+![sum](./_resources/sum.svg)
 
 From the base case, we recursively sum the value from the previous `sum` function with the next value in the array.
 
