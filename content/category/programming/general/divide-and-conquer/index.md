@@ -104,6 +104,10 @@ func main() {
 
     println("sum:", sum)
 }
+
+/*
+sum: 32
+*/
 ```
 
 [Run in Go Playground](https://go.dev/play/p/DAVmywa8Ugz)
@@ -138,6 +142,10 @@ func main() {
 
 	println("sum:", sum(arr))
 }
+
+/*
+sum: 32
+*/
 ```
 
 [Run in Go Playground](https://go.dev/play/p/II7IufcOnIE)
